@@ -1,0 +1,58 @@
+Error Inference t1 Confusion Matrix
+
+Rows = Actual, Columns = Predicted
+
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly           14             6
+
+
+
+
+Error Inference t2 Confusion Matrix
+
+Rows = Actual, Columns = Predicted
+
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly            2            18
+
+
+
+
+Error Inference t3 Confusion Matrix
+
+Rows = Actual, Columns = Predicted
+
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly           18             2
+
+
+
+
+Error Inference t4 Confusion Matrix
+
+Rows = Actual, Columns = Predicted
+
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly            5            15
+
+
+
+
+Error Inference t5 Confusion Matrix
+
+Rows = Actual, Columns = Predicted
+
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly           14             6
+
+

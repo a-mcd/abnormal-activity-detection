@@ -1,0 +1,6 @@
+fold,filename,participant,true_label,pred_label,true_index,pred_index,confidence,correct,orig_len
+1,p05.t5.csv,p05,t5,t3,4,2,0.9848392009735107,False,72
+1,p15.t4.csv,p15,t4,t1,3,0,0.6824586391448975,False,36
+4,p08.t2.csv,p08,t2,t5,1,4,0.9956281781196594,False,30
+4,p40.t2.csv,p40,t2,t5,1,4,0.9881469011306763,False,32
+5,p09.t3.csv,p09,t3,t4,2,3,0.7055956721305847,False,201

@@ -1,0 +1,6 @@
+filename,participant_id,activity_code,activity_index,dataset,fold,y_true,y_pred,true_label,pred_label,decision_score,threshold,prediction_mode,native_pred
+p02.t4.csv,p02,t4,3,normal,3,0,0,normal,normal,0.23447103564470295,0.011791361160720245,percentile_threshold,0
+p07.t4.csv,p07,t4,3,normal,3,0,0,normal,normal,0.25692553575457766,0.011791361160720245,percentile_threshold,0
+p12.t4.csv,p12,t4,3,normal,3,0,0,normal,normal,0.02974742606102021,0.011791361160720245,percentile_threshold,0
+p32.t4.csv,p32,t4,3,normal,3,0,0,normal,normal,0.27600797790616755,0.011791361160720245,percentile_threshold,0
+p49.t4.csv,p49,t4,3,normal,3,0,0,normal,normal,0.24909524811087647,0.011791361160720245,percentile_threshold,0

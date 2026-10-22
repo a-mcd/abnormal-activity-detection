@@ -1,0 +1,15 @@
+{
+  "target_activity_code": "t4",
+  "feature_config": [
+    "sensor::I06",
+    "EPISODE_DURATION",
+    "analogue_ad1_a_last_value",
+    "UNIQUE_SENSOR_MESSAGE_COUNT"
+  ],
+  "n_normal_sessions": 24,
+  "n_error_sessions": 20,
+  "n_features": 4,
+  "pc1_explained_variance_ratio": 0.46471925006123155,
+  "pc2_explained_variance_ratio": 0.2527445297769498,
+  "pc1_pc2_total_explained_variance_ratio": 0.7174637798381813
+}

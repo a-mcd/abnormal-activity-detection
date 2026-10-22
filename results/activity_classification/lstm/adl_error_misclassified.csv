@@ -1,0 +1,10 @@
+filename,participant,true_label,pred_label,true_index,pred_index,confidence,correct,orig_len
+p20.t4.csv,p20,t4,t2,3,1,0.4993436634540558,False,12
+p21.t5.csv,p21,t5,t2,4,1,0.9393458962440491,False,17
+p26.t5.csv,p26,t5,t2,4,1,0.9290188550949097,False,20
+p27.t5.csv,p27,t5,t2,4,1,0.8108536005020142,False,19
+p29.t5.csv,p29,t5,t2,4,1,0.9721181988716125,False,15
+p31.t5.csv,p31,t5,t2,4,1,0.7029035091400146,False,20
+p57.t5.csv,p57,t5,t2,4,1,0.9734265208244324,False,15
+p58.t5.csv,p58,t5,t2,4,1,0.962961733341217,False,16
+p59.t5.csv,p59,t5,t2,4,1,0.6191282272338867,False,21

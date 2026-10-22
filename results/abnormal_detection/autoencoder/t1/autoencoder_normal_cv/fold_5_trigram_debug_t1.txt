@@ -1,0 +1,729 @@
+====================================================================================================
+FOLD 5 TRIGRAM DEBUG
+====================================================================================================
+
+TRAIN REFERENCE TRIGRAM VOCAB
+----------------------------------------------------------------------------------------------------
+Total reference trigrams: 232
+
+001. ('ASTERISK::END', 'M13::OFF', 'M13::ON')
+002. ('ASTERISK::END', 'M13::ON', 'I08::PRESENT')
+003. ('ASTERISK::END', 'M13::ON', 'M13::OFF')
+004. ('ASTERISK::END', 'M13::ON', 'M13::ON')
+005. ('ASTERISK::END', 'M14::OFF', 'M13::OFF')
+006. ('ASTERISK::END', 'M14::ON', 'M14::OFF')
+007. ('ASTERISK::START', 'ASTERISK::END', 'M13::ON')
+008. ('ASTERISK::START', 'M13::OFF', 'ASTERISK::END')
+009. ('ASTERISK::START', 'M13::OFF', 'M13::ON')
+010. ('ASTERISK::START', 'M13::ON', 'ASTERISK::END')
+011. ('ASTERISK::START', 'M13::ON', 'M13::OFF')
+012. ('ASTERISK::START', 'M14::OFF', 'M14::ON')
+013. ('ASTERISK::START', 'M14::ON', 'ASTERISK::END')
+014. ('ASTERISK::START', 'M14::ON', 'M14::OFF')
+015. ('I08::ABSENT', 'I08::PRESENT', 'M14::OFF')
+016. ('I08::ABSENT', 'M13::OFF', 'M13::ON')
+017. ('I08::ABSENT', 'M13::OFF', 'M14::OFF')
+018. ('I08::ABSENT', 'M13::ON', 'M13::OFF')
+019. ('I08::ABSENT', 'M13::ON', 'M14::OFF')
+020. ('I08::ABSENT', 'M14::OFF', 'M13::OFF')
+021. ('I08::ABSENT', 'M14::OFF', 'M14::ON')
+022. ('I08::ABSENT', 'M14::ON', 'M14::OFF')
+023. ('I08::PRESENT', 'I08::ABSENT', 'M14::OFF')
+024. ('I08::PRESENT', 'M14::OFF', 'I08::ABSENT')
+025. ('M01::OFF', 'I08::ABSENT', 'M13::OFF')
+026. ('M01::OFF', 'M01::ON', 'M01::OFF')
+027. ('M01::OFF', 'M01::ON', 'M07::ON')
+028. ('M01::OFF', 'M07::OFF', 'M08::OFF')
+029. ('M01::OFF', 'M07::OFF', 'M09::OFF')
+030. ('M01::OFF', 'M07::OFF', 'M14::ON')
+031. ('M01::OFF', 'M08::OFF', 'M09::OFF')
+032. ('M01::OFF', 'M08::OFF', 'M13::ON')
+033. ('M01::OFF', 'M08::OFF', 'M23::OFF')
+034. ('M01::OFF', 'M13::OFF', 'M14::OFF')
+035. ('M01::OFF', 'M13::ON', 'M09::OFF')
+036. ('M01::OFF', 'M14::OFF', 'I08::ABSENT')
+037. ('M01::OFF', 'M14::OFF', 'M13::ON')
+038. ('M01::OFF', 'M14::ON', 'M07::OFF')
+039. ('M01::OFF', 'M14::ON', 'M08::OFF')
+040. ('M01::OFF', 'M15::ON', 'M16::ON')
+041. ('M01::OFF', 'M23::OFF', 'M07::OFF')
+042. ('M01::OFF', 'M23::OFF', 'M23::ON')
+043. ('M01::ON', 'M01::OFF', 'M01::ON')
+044. ('M01::ON', 'M01::OFF', 'M23::OFF')
+045. ('M01::ON', 'M07::ON', 'M08::ON')
+046. ('M01::ON', 'M08::ON', 'M07::ON')
+047. ('M01::ON', 'M08::ON', 'M14::ON')
+048. ('M01::ON', 'M23::ON', 'M01::OFF')
+049. ('M01::ON', 'M23::ON', 'M07::ON')
+050. ('M07::OFF', 'M01::OFF', 'M08::OFF')
+051. ('M07::OFF', 'M08::OFF', 'I08::ABSENT')
+052. ('M07::OFF', 'M08::OFF', 'M09::OFF')
+053. ('M07::OFF', 'M08::OFF', 'M13::ON')
+054. ('M07::OFF', 'M09::OFF', 'I08::ABSENT')
+055. ('M07::OFF', 'M09::OFF', 'M08::OFF')
+056. ('M07::OFF', 'M09::OFF', 'M13::ON')
+057. ('M07::OFF', 'M09::OFF', 'M14::OFF')
+058. ('M07::OFF', 'M09::ON', 'M14::ON')
+059. ('M07::OFF', 'M09::ON', 'M23::OFF')
+060. ('M07::OFF', 'M13::ON', 'M09::OFF')
+061. ('M07::OFF', 'M13::ON', 'M14::OFF')
+062. ('M07::OFF', 'M14::ON', 'M01::OFF')
+063. ('M07::OFF', 'M14::ON', 'M08::OFF')
+064. ('M07::OFF', 'M14::ON', 'M09::OFF')
+065. ('M07::OFF', 'M23::OFF', 'M08::OFF')
+066. ('M07::ON', 'M08::ON', 'M07::OFF')
+067. ('M07::ON', 'M08::ON', 'M09::ON')
+068. ('M07::ON', 'M08::ON', 'M14::ON')
+069. ('M07::ON', 'M08::ON', 'M23::OFF')
+070. ('M07::ON', 'M09::ON', 'M14::ON')
+071. ('M08::OFF', 'I08::ABSENT', 'M13::ON')
+072. ('M08::OFF', 'I08::PRESENT', 'I08::ABSENT')
+073. ('M08::OFF', 'M01::OFF', 'M14::OFF')
+074. ('M08::OFF', 'M07::OFF', 'M09::OFF')
+075. ('M08::OFF', 'M07::OFF', 'M13::ON')
+076. ('M08::OFF', 'M09::OFF', 'M07::OFF')
+077. ('M08::OFF', 'M09::OFF', 'M13::ON')
+078. ('M08::OFF', 'M09::OFF', 'M14::OFF')
+079. ('M08::OFF', 'M13::ON', 'M01::OFF')
+080. ('M08::OFF', 'M13::ON', 'M07::OFF')
+081. ('M08::OFF', 'M13::ON', 'M09::OFF')
+082. ('M08::OFF', 'M13::ON', 'M14::OFF')
+083. ('M08::OFF', 'M13::ON', 'M23::OFF')
+084. ('M08::OFF', 'M23::OFF', 'M09::OFF')
+085. ('M08::ON', 'M07::OFF', 'M09::ON')
+086. ('M08::ON', 'M07::ON', 'M09::ON')
+087. ('M08::ON', 'M09::ON', 'M01::OFF')
+088. ('M08::ON', 'M09::ON', 'M07::OFF')
+089. ('M08::ON', 'M09::ON', 'M14::ON')
+090. ('M08::ON', 'M09::ON', 'M23::OFF')
+091. ('M08::ON', 'M14::ON', 'M07::OFF')
+092. ('M08::ON', 'M14::ON', 'M23::OFF')
+093. ('M08::ON', 'M23::OFF', 'M01::OFF')
+094. ('M08::ON', 'M23::OFF', 'M07::OFF')
+095. ('M08::ON', 'M23::OFF', 'M09::ON')
+096. ('M09::OFF', 'I08::ABSENT', 'I08::PRESENT')
+097. ('M09::OFF', 'I08::ABSENT', 'M13::OFF')
+098. ('M09::OFF', 'I08::ABSENT', 'M14::OFF')
+099. ('M09::OFF', 'M01::OFF', 'M15::ON')
+100. ('M09::OFF', 'M07::OFF', 'M13::ON')
+101. ('M09::OFF', 'M08::OFF', 'I08::PRESENT')
+102. ('M09::OFF', 'M08::OFF', 'M13::ON')
+103. ('M09::OFF', 'M13::ON', 'I08::ABSENT')
+104. ('M09::OFF', 'M13::ON', 'M08::OFF')
+105. ('M09::OFF', 'M13::ON', 'M13::OFF')
+106. ('M09::OFF', 'M13::ON', 'M14::OFF')
+107. ('M09::OFF', 'M14::OFF', 'I08::ABSENT')
+108. ('M09::OFF', 'M14::OFF', 'M13::ON')
+109. ('M09::OFF', 'M14::OFF', 'M14::ON')
+110. ('M09::ON', 'M01::OFF', 'M07::OFF')
+111. ('M09::ON', 'M01::OFF', 'M14::ON')
+112. ('M09::ON', 'M07::OFF', 'M14::ON')
+113. ('M09::ON', 'M14::ON', 'M01::OFF')
+114. ('M09::ON', 'M14::ON', 'M07::OFF')
+115. ('M09::ON', 'M14::ON', 'M23::OFF')
+116. ('M09::ON', 'M23::OFF', 'M01::OFF')
+117. ('M09::ON', 'M23::OFF', 'M07::OFF')
+118. ('M09::ON', 'M23::OFF', 'M14::ON')
+119. ('M13::OFF', 'ASTERISK::END', 'M13::ON')
+120. ('M13::OFF', 'ASTERISK::END', 'M14::ON')
+121. ('M13::OFF', 'ASTERISK::START', 'ASTERISK::END')
+122. ('M13::OFF', 'ASTERISK::START', 'M13::ON')
+123. ('M13::OFF', 'ASTERISK::START', 'M14::ON')
+124. ('M13::OFF', 'I08::ABSENT', 'M13::ON')
+125. ('M13::OFF', 'I08::ABSENT', 'M14::OFF')
+126. ('M13::OFF', 'M13::OFF', 'M13::ON')
+127. ('M13::OFF', 'M13::ON', 'ASTERISK::END')
+128. ('M13::OFF', 'M13::ON', 'ASTERISK::START')
+129. ('M13::OFF', 'M13::ON', 'M13::OFF')
+130. ('M13::OFF', 'M13::ON', 'M13::ON')
+131. ('M13::OFF', 'M13::ON', 'M14::OFF')
+132. ('M13::OFF', 'M13::ON', 'M14::ON')
+133. ('M13::OFF', 'M13::ON', 'M15::OFF')
+134. ('M13::OFF', 'M14::OFF', 'I08::ABSENT')
+135. ('M13::OFF', 'M14::OFF', 'M13::ON')
+136. ('M13::OFF', 'M14::OFF', 'M14::ON')
+137. ('M13::OFF', 'M14::ON', 'ASTERISK::END')
+138. ('M13::OFF', 'M14::ON', 'M13::ON')
+139. ('M13::OFF', 'M14::ON', 'M14::OFF')
+140. ('M13::ON', 'ASTERISK::END', 'M13::OFF')
+141. ('M13::ON', 'ASTERISK::END', 'M13::ON')
+142. ('M13::ON', 'ASTERISK::END', 'M14::OFF')
+143. ('M13::ON', 'ASTERISK::START', 'M13::OFF')
+144. ('M13::ON', 'I08::ABSENT', 'M13::OFF')
+145. ('M13::ON', 'I08::ABSENT', 'M14::OFF')
+146. ('M13::ON', 'I08::PRESENT', 'M13::OFF')
+147. ('M13::ON', 'M01::OFF', 'M13::OFF')
+148. ('M13::ON', 'M07::OFF', 'M09::OFF')
+149. ('M13::ON', 'M08::OFF', 'M01::OFF')
+150. ('M13::ON', 'M09::OFF', 'I08::ABSENT')
+151. ('M13::ON', 'M09::OFF', 'M01::OFF')
+152. ('M13::ON', 'M09::OFF', 'M08::OFF')
+153. ('M13::ON', 'M13::OFF', 'ASTERISK::END')
+154. ('M13::ON', 'M13::OFF', 'ASTERISK::START')
+155. ('M13::ON', 'M13::OFF', 'I08::ABSENT')
+156. ('M13::ON', 'M13::OFF', 'M13::OFF')
+157. ('M13::ON', 'M13::OFF', 'M13::ON')
+158. ('M13::ON', 'M13::OFF', 'M14::OFF')
+159. ('M13::ON', 'M13::OFF', 'M14::ON')
+160. ('M13::ON', 'M13::ON', 'M13::OFF')
+161. ('M13::ON', 'M14::OFF', 'ASTERISK::END')
+162. ('M13::ON', 'M14::OFF', 'I08::ABSENT')
+163. ('M13::ON', 'M14::OFF', 'M01::OFF')
+164. ('M13::ON', 'M14::OFF', 'M13::OFF')
+165. ('M13::ON', 'M14::ON', 'M13::OFF')
+166. ('M13::ON', 'M14::ON', 'M13::ON')
+167. ('M13::ON', 'M14::ON', 'M14::OFF')
+168. ('M13::ON', 'M15::OFF', 'M16::OFF')
+169. ('M13::ON', 'M23::OFF', 'I08::ABSENT')
+170. ('M14::OFF', 'ASTERISK::END', 'M13::OFF')
+171. ('M14::OFF', 'ASTERISK::START', 'M14::ON')
+172. ('M14::OFF', 'I08::ABSENT', 'M13::OFF')
+173. ('M14::OFF', 'I08::ABSENT', 'M14::ON')
+174. ('M14::OFF', 'M01::OFF', 'I08::ABSENT')
+175. ('M14::OFF', 'M13::OFF', 'ASTERISK::START')
+176. ('M14::OFF', 'M13::OFF', 'M13::ON')
+177. ('M14::OFF', 'M13::OFF', 'M14::ON')
+178. ('M14::OFF', 'M13::ON', 'M13::OFF')
+179. ('M14::OFF', 'M13::ON', 'M13::ON')
+180. ('M14::OFF', 'M13::ON', 'M14::ON')
+181. ('M14::OFF', 'M14::ON', 'ASTERISK::START')
+182. ('M14::OFF', 'M14::ON', 'M13::OFF')
+183. ('M14::OFF', 'M14::ON', 'M13::ON')
+184. ('M14::OFF', 'M14::ON', 'M14::OFF')
+185. ('M14::ON', 'ASTERISK::END', 'M13::ON')
+186. ('M14::ON', 'ASTERISK::END', 'M14::OFF')
+187. ('M14::ON', 'ASTERISK::START', 'M14::OFF')
+188. ('M14::ON', 'M01::OFF', 'M07::OFF')
+189. ('M14::ON', 'M01::OFF', 'M08::OFF')
+190. ('M14::ON', 'M01::OFF', 'M13::ON')
+191. ('M14::ON', 'M01::OFF', 'M23::OFF')
+192. ('M14::ON', 'M07::OFF', 'M01::OFF')
+193. ('M14::ON', 'M07::OFF', 'M08::OFF')
+194. ('M14::ON', 'M07::OFF', 'M09::OFF')
+195. ('M14::ON', 'M07::OFF', 'M23::OFF')
+196. ('M14::ON', 'M08::OFF', 'M07::OFF')
+197. ('M14::ON', 'M08::OFF', 'M09::OFF')
+198. ('M14::ON', 'M08::OFF', 'M13::ON')
+199. ('M14::ON', 'M09::OFF', 'M08::OFF')
+200. ('M14::ON', 'M13::OFF', 'M14::OFF')
+201. ('M14::ON', 'M13::OFF', 'M14::ON')
+202. ('M14::ON', 'M13::ON', 'ASTERISK::END')
+203. ('M14::ON', 'M13::ON', 'I08::ABSENT')
+204. ('M14::ON', 'M13::ON', 'M13::OFF')
+205. ('M14::ON', 'M13::ON', 'M14::OFF')
+206. ('M14::ON', 'M14::OFF', 'ASTERISK::START')
+207. ('M14::ON', 'M14::OFF', 'M13::OFF')
+208. ('M14::ON', 'M14::OFF', 'M13::ON')
+209. ('M14::ON', 'M14::OFF', 'M14::ON')
+210. ('M14::ON', 'M23::OFF', 'M01::OFF')
+211. ('M14::ON', 'M23::OFF', 'M08::OFF')
+212. ('M15::OFF', 'M16::OFF', 'M14::OFF')
+213. ('M15::ON', 'M16::ON', 'M13::OFF')
+214. ('M16::OFF', 'M14::OFF', 'I08::ABSENT')
+215. ('M16::ON', 'M13::OFF', 'M13::ON')
+216. ('M23::OFF', 'I08::ABSENT', 'M14::OFF')
+217. ('M23::OFF', 'M01::OFF', 'M07::OFF')
+218. ('M23::OFF', 'M01::OFF', 'M08::OFF')
+219. ('M23::OFF', 'M01::OFF', 'M14::ON')
+220. ('M23::OFF', 'M07::OFF', 'M08::OFF')
+221. ('M23::OFF', 'M07::OFF', 'M14::ON')
+222. ('M23::OFF', 'M08::OFF', 'M01::OFF')
+223. ('M23::OFF', 'M08::OFF', 'M07::OFF')
+224. ('M23::OFF', 'M08::OFF', 'M09::OFF')
+225. ('M23::OFF', 'M09::OFF', 'M14::OFF')
+226. ('M23::OFF', 'M09::ON', 'M01::OFF')
+227. ('M23::OFF', 'M14::ON', 'M01::OFF')
+228. ('M23::OFF', 'M23::ON', 'M01::ON')
+229. ('M23::ON', 'M01::OFF', 'M01::ON')
+230. ('M23::ON', 'M01::ON', 'M07::ON')
+231. ('M23::ON', 'M01::ON', 'M08::ON')
+232. ('M23::ON', 'M07::ON', 'M08::ON')
+
+
+====================================================================================================
+VALIDATION SESSION DETAILS
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+filename        : p04.t1.csv
+participant_id  : p04
+dataset         : normal
+activity_code   : t1
+activity_index  : 0
+n_session_trigrams        : 45
+n_missing_trigrams        : 6
+n_unique_session_trigrams : 23
+n_unique_missing_trigrams : 6
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M23::ON
+002. M01::ON
+003. M07::ON
+004. M08::ON
+005. M09::ON
+006. M14::ON
+007. M07::OFF
+008. M01::OFF
+009. M08::OFF
+010. M23::OFF
+011. M13::ON
+012. M09::OFF
+013. M14::OFF
+014. I08::ABSENT
+015. M13::OFF
+016. M13::ON
+017. M13::OFF
+018. M13::ON
+019. M13::OFF
+020. M13::ON
+021. M13::OFF
+022. M13::ON
+023. M13::OFF
+024. M13::ON
+025. M13::OFF
+026. M13::ON
+027. M13::OFF
+028. M13::ON
+029. M13::OFF
+030. M13::ON
+031. M13::OFF
+032. M13::ON
+033. M13::OFF
+034. M13::ON
+035. M13::OFF
+036. M13::ON
+037. ASTERISK::START
+038. M13::OFF
+039. M13::ON
+040. M13::OFF
+041. M13::ON
+042. M13::OFF
+043. M13::ON
+044. ASTERISK::END
+045. I08::PRESENT
+046. M13::OFF
+047. M13::ON
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M23::ON', 'M01::ON', 'M07::ON')    [SEEN]
+002. ('M01::ON', 'M07::ON', 'M08::ON')    [SEEN]
+003. ('M07::ON', 'M08::ON', 'M09::ON')    [SEEN]
+004. ('M08::ON', 'M09::ON', 'M14::ON')    [SEEN]
+005. ('M09::ON', 'M14::ON', 'M07::OFF')    [SEEN]
+006. ('M14::ON', 'M07::OFF', 'M01::OFF')    [SEEN]
+007. ('M07::OFF', 'M01::OFF', 'M08::OFF')    [SEEN]
+008. ('M01::OFF', 'M08::OFF', 'M23::OFF')    [SEEN]
+009. ('M08::OFF', 'M23::OFF', 'M13::ON')    [MISSING]
+010. ('M23::OFF', 'M13::ON', 'M09::OFF')    [MISSING]
+011. ('M13::ON', 'M09::OFF', 'M14::OFF')    [MISSING]
+012. ('M09::OFF', 'M14::OFF', 'I08::ABSENT')    [SEEN]
+013. ('M14::OFF', 'I08::ABSENT', 'M13::OFF')    [SEEN]
+014. ('I08::ABSENT', 'M13::OFF', 'M13::ON')    [SEEN]
+015. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+016. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+017. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+018. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+019. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+020. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+021. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+022. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+023. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+024. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+025. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+026. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+027. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+028. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+029. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+030. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+031. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+032. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+033. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+034. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+035. ('M13::OFF', 'M13::ON', 'ASTERISK::START')    [SEEN]
+036. ('M13::ON', 'ASTERISK::START', 'M13::OFF')    [SEEN]
+037. ('ASTERISK::START', 'M13::OFF', 'M13::ON')    [SEEN]
+038. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+039. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+040. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+041. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+042. ('M13::OFF', 'M13::ON', 'ASTERISK::END')    [SEEN]
+043. ('M13::ON', 'ASTERISK::END', 'I08::PRESENT')    [MISSING]
+044. ('ASTERISK::END', 'I08::PRESENT', 'M13::OFF')    [MISSING]
+045. ('I08::PRESENT', 'M13::OFF', 'M13::ON')    [MISSING]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M08::OFF', 'M23::OFF', 'M13::ON')
+002. ('M23::OFF', 'M13::ON', 'M09::OFF')
+003. ('M13::ON', 'M09::OFF', 'M14::OFF')
+004. ('M13::ON', 'ASTERISK::END', 'I08::PRESENT')
+005. ('ASTERISK::END', 'I08::PRESENT', 'M13::OFF')
+006. ('I08::PRESENT', 'M13::OFF', 'M13::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('ASTERISK::END', 'I08::PRESENT', 'M13::OFF')
+002. ('I08::PRESENT', 'M13::OFF', 'M13::ON')
+003. ('M08::OFF', 'M23::OFF', 'M13::ON')
+004. ('M13::ON', 'ASTERISK::END', 'I08::PRESENT')
+005. ('M13::ON', 'M09::OFF', 'M14::OFF')
+006. ('M23::OFF', 'M13::ON', 'M09::OFF')
+
+----------------------------------------------------------------------------------------------------
+filename        : p09.t1.csv
+participant_id  : p09
+dataset         : normal
+activity_code   : t1
+activity_index  : 0
+n_session_trigrams        : 26
+n_missing_trigrams        : 8
+n_unique_session_trigrams : 24
+n_unique_missing_trigrams : 8
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M01::ON
+002. M07::ON
+003. M23::ON
+004. M08::ON
+005. M14::ON
+006. M07::OFF
+007. M23::OFF
+008. M08::OFF
+009. M13::ON
+010. I08::ABSENT
+011. M01::OFF
+012. M13::OFF
+013. M13::ON
+014. M14::OFF
+015. M13::OFF
+016. M14::ON
+017. M14::OFF
+018. M13::ON
+019. M13::OFF
+020. M13::ON
+021. M13::OFF
+022. ASTERISK::START
+023. M14::ON
+024. M14::OFF
+025. M13::ON
+026. M13::OFF
+027. ASTERISK::END
+028. M13::ON
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M01::ON', 'M07::ON', 'M23::ON')    [MISSING]
+002. ('M07::ON', 'M23::ON', 'M08::ON')    [MISSING]
+003. ('M23::ON', 'M08::ON', 'M14::ON')    [MISSING]
+004. ('M08::ON', 'M14::ON', 'M07::OFF')    [SEEN]
+005. ('M14::ON', 'M07::OFF', 'M23::OFF')    [SEEN]
+006. ('M07::OFF', 'M23::OFF', 'M08::OFF')    [SEEN]
+007. ('M23::OFF', 'M08::OFF', 'M13::ON')    [MISSING]
+008. ('M08::OFF', 'M13::ON', 'I08::ABSENT')    [MISSING]
+009. ('M13::ON', 'I08::ABSENT', 'M01::OFF')    [MISSING]
+010. ('I08::ABSENT', 'M01::OFF', 'M13::OFF')    [MISSING]
+011. ('M01::OFF', 'M13::OFF', 'M13::ON')    [MISSING]
+012. ('M13::OFF', 'M13::ON', 'M14::OFF')    [SEEN]
+013. ('M13::ON', 'M14::OFF', 'M13::OFF')    [SEEN]
+014. ('M14::OFF', 'M13::OFF', 'M14::ON')    [SEEN]
+015. ('M13::OFF', 'M14::ON', 'M14::OFF')    [SEEN]
+016. ('M14::ON', 'M14::OFF', 'M13::ON')    [SEEN]
+017. ('M14::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+018. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+019. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+020. ('M13::ON', 'M13::OFF', 'ASTERISK::START')    [SEEN]
+021. ('M13::OFF', 'ASTERISK::START', 'M14::ON')    [SEEN]
+022. ('ASTERISK::START', 'M14::ON', 'M14::OFF')    [SEEN]
+023. ('M14::ON', 'M14::OFF', 'M13::ON')    [SEEN]
+024. ('M14::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+025. ('M13::ON', 'M13::OFF', 'ASTERISK::END')    [SEEN]
+026. ('M13::OFF', 'ASTERISK::END', 'M13::ON')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M01::ON', 'M07::ON', 'M23::ON')
+002. ('M07::ON', 'M23::ON', 'M08::ON')
+003. ('M23::ON', 'M08::ON', 'M14::ON')
+004. ('M23::OFF', 'M08::OFF', 'M13::ON')
+005. ('M08::OFF', 'M13::ON', 'I08::ABSENT')
+006. ('M13::ON', 'I08::ABSENT', 'M01::OFF')
+007. ('I08::ABSENT', 'M01::OFF', 'M13::OFF')
+008. ('M01::OFF', 'M13::OFF', 'M13::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('I08::ABSENT', 'M01::OFF', 'M13::OFF')
+002. ('M01::OFF', 'M13::OFF', 'M13::ON')
+003. ('M01::ON', 'M07::ON', 'M23::ON')
+004. ('M07::ON', 'M23::ON', 'M08::ON')
+005. ('M08::OFF', 'M13::ON', 'I08::ABSENT')
+006. ('M13::ON', 'I08::ABSENT', 'M01::OFF')
+007. ('M23::OFF', 'M08::OFF', 'M13::ON')
+008. ('M23::ON', 'M08::ON', 'M14::ON')
+
+----------------------------------------------------------------------------------------------------
+filename        : p14.t1.csv
+participant_id  : p14
+dataset         : normal
+activity_code   : t1
+activity_index  : 0
+n_session_trigrams        : 27
+n_missing_trigrams        : 6
+n_unique_session_trigrams : 18
+n_unique_missing_trigrams : 6
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M07::ON
+002. M08::ON
+003. M09::ON
+004. M14::ON
+005. M08::OFF
+006. M07::OFF
+007. M23::OFF
+008. M13::ON
+009. M09::OFF
+010. M01::OFF
+011. M14::OFF
+012. I08::ABSENT
+013. M13::ON
+014. M13::OFF
+015. M13::ON
+016. M13::OFF
+017. M13::ON
+018. M13::OFF
+019. M13::ON
+020. M13::OFF
+021. M13::ON
+022. ASTERISK::START
+023. M13::OFF
+024. M13::ON
+025. M13::OFF
+026. M13::ON
+027. M13::OFF
+028. M13::ON
+029. ASTERISK::END
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M07::ON', 'M08::ON', 'M09::ON')    [SEEN]
+002. ('M08::ON', 'M09::ON', 'M14::ON')    [SEEN]
+003. ('M09::ON', 'M14::ON', 'M08::OFF')    [MISSING]
+004. ('M14::ON', 'M08::OFF', 'M07::OFF')    [SEEN]
+005. ('M08::OFF', 'M07::OFF', 'M23::OFF')    [MISSING]
+006. ('M07::OFF', 'M23::OFF', 'M13::ON')    [MISSING]
+007. ('M23::OFF', 'M13::ON', 'M09::OFF')    [MISSING]
+008. ('M13::ON', 'M09::OFF', 'M01::OFF')    [SEEN]
+009. ('M09::OFF', 'M01::OFF', 'M14::OFF')    [MISSING]
+010. ('M01::OFF', 'M14::OFF', 'I08::ABSENT')    [SEEN]
+011. ('M14::OFF', 'I08::ABSENT', 'M13::ON')    [MISSING]
+012. ('I08::ABSENT', 'M13::ON', 'M13::OFF')    [SEEN]
+013. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+014. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+015. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+016. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+017. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+018. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+019. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+020. ('M13::OFF', 'M13::ON', 'ASTERISK::START')    [SEEN]
+021. ('M13::ON', 'ASTERISK::START', 'M13::OFF')    [SEEN]
+022. ('ASTERISK::START', 'M13::OFF', 'M13::ON')    [SEEN]
+023. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+024. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+025. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+026. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+027. ('M13::OFF', 'M13::ON', 'ASTERISK::END')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M09::ON', 'M14::ON', 'M08::OFF')
+002. ('M08::OFF', 'M07::OFF', 'M23::OFF')
+003. ('M07::OFF', 'M23::OFF', 'M13::ON')
+004. ('M23::OFF', 'M13::ON', 'M09::OFF')
+005. ('M09::OFF', 'M01::OFF', 'M14::OFF')
+006. ('M14::OFF', 'I08::ABSENT', 'M13::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('M07::OFF', 'M23::OFF', 'M13::ON')
+002. ('M08::OFF', 'M07::OFF', 'M23::OFF')
+003. ('M09::OFF', 'M01::OFF', 'M14::OFF')
+004. ('M09::ON', 'M14::ON', 'M08::OFF')
+005. ('M14::OFF', 'I08::ABSENT', 'M13::ON')
+006. ('M23::OFF', 'M13::ON', 'M09::OFF')
+
+----------------------------------------------------------------------------------------------------
+filename        : p41.t1.csv
+participant_id  : p41
+dataset         : normal
+activity_code   : t1
+activity_index  : 0
+n_session_trigrams        : 50
+n_missing_trigrams        : 24
+n_unique_session_trigrams : 35
+n_unique_missing_trigrams : 24
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M01::ON
+002. M07::ON
+003. M09::ON
+004. M08::ON
+005. M23::OFF
+006. M16::ON
+007. M15::ON
+008. M09::OFF
+009. M01::OFF
+010. M08::OFF
+011. M07::OFF
+012. M17::ON
+013. M15::OFF
+014. M18::ON
+015. M16::OFF
+016. M18::OFF
+017. M15::ON
+018. M16::ON
+019. M14::ON
+020. M17::OFF
+021. M16::OFF
+022. M15::OFF
+023. M13::ON
+024. M14::OFF
+025. I08::ABSENT
+026. M13::OFF
+027. M13::ON
+028. M13::OFF
+029. M13::ON
+030. M13::OFF
+031. M13::ON
+032. M13::OFF
+033. M13::ON
+034. M13::OFF
+035. M13::ON
+036. M13::OFF
+037. M13::ON
+038. M13::OFF
+039. M13::ON
+040. M13::OFF
+041. M13::ON
+042. M13::OFF
+043. M13::ON
+044. ASTERISK::START
+045. M13::ON
+046. M13::OFF
+047. M13::ON
+048. ASTERISK::END
+049. M13::OFF
+050. M13::ON
+051. I08::PRESENT
+052. M13::OFF
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M01::ON', 'M07::ON', 'M09::ON')    [MISSING]
+002. ('M07::ON', 'M09::ON', 'M08::ON')    [MISSING]
+003. ('M09::ON', 'M08::ON', 'M23::OFF')    [MISSING]
+004. ('M08::ON', 'M23::OFF', 'M16::ON')    [MISSING]
+005. ('M23::OFF', 'M16::ON', 'M15::ON')    [MISSING]
+006. ('M16::ON', 'M15::ON', 'M09::OFF')    [MISSING]
+007. ('M15::ON', 'M09::OFF', 'M01::OFF')    [MISSING]
+008. ('M09::OFF', 'M01::OFF', 'M08::OFF')    [MISSING]
+009. ('M01::OFF', 'M08::OFF', 'M07::OFF')    [MISSING]
+010. ('M08::OFF', 'M07::OFF', 'M17::ON')    [MISSING]
+011. ('M07::OFF', 'M17::ON', 'M15::OFF')    [MISSING]
+012. ('M17::ON', 'M15::OFF', 'M18::ON')    [MISSING]
+013. ('M15::OFF', 'M18::ON', 'M16::OFF')    [MISSING]
+014. ('M18::ON', 'M16::OFF', 'M18::OFF')    [MISSING]
+015. ('M16::OFF', 'M18::OFF', 'M15::ON')    [MISSING]
+016. ('M18::OFF', 'M15::ON', 'M16::ON')    [MISSING]
+017. ('M15::ON', 'M16::ON', 'M14::ON')    [MISSING]
+018. ('M16::ON', 'M14::ON', 'M17::OFF')    [MISSING]
+019. ('M14::ON', 'M17::OFF', 'M16::OFF')    [MISSING]
+020. ('M17::OFF', 'M16::OFF', 'M15::OFF')    [MISSING]
+021. ('M16::OFF', 'M15::OFF', 'M13::ON')    [MISSING]
+022. ('M15::OFF', 'M13::ON', 'M14::OFF')    [MISSING]
+023. ('M13::ON', 'M14::OFF', 'I08::ABSENT')    [SEEN]
+024. ('M14::OFF', 'I08::ABSENT', 'M13::OFF')    [SEEN]
+025. ('I08::ABSENT', 'M13::OFF', 'M13::ON')    [SEEN]
+026. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+027. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+028. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+029. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+030. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+031. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+032. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+033. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+034. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+035. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+036. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+037. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+038. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+039. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+040. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+041. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+042. ('M13::OFF', 'M13::ON', 'ASTERISK::START')    [SEEN]
+043. ('M13::ON', 'ASTERISK::START', 'M13::ON')    [MISSING]
+044. ('ASTERISK::START', 'M13::ON', 'M13::OFF')    [SEEN]
+045. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+046. ('M13::OFF', 'M13::ON', 'ASTERISK::END')    [SEEN]
+047. ('M13::ON', 'ASTERISK::END', 'M13::OFF')    [SEEN]
+048. ('ASTERISK::END', 'M13::OFF', 'M13::ON')    [SEEN]
+049. ('M13::OFF', 'M13::ON', 'I08::PRESENT')    [MISSING]
+050. ('M13::ON', 'I08::PRESENT', 'M13::OFF')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M01::ON', 'M07::ON', 'M09::ON')
+002. ('M07::ON', 'M09::ON', 'M08::ON')
+003. ('M09::ON', 'M08::ON', 'M23::OFF')
+004. ('M08::ON', 'M23::OFF', 'M16::ON')
+005. ('M23::OFF', 'M16::ON', 'M15::ON')
+006. ('M16::ON', 'M15::ON', 'M09::OFF')
+007. ('M15::ON', 'M09::OFF', 'M01::OFF')
+008. ('M09::OFF', 'M01::OFF', 'M08::OFF')
+009. ('M01::OFF', 'M08::OFF', 'M07::OFF')
+010. ('M08::OFF', 'M07::OFF', 'M17::ON')
+011. ('M07::OFF', 'M17::ON', 'M15::OFF')
+012. ('M17::ON', 'M15::OFF', 'M18::ON')
+013. ('M15::OFF', 'M18::ON', 'M16::OFF')
+014. ('M18::ON', 'M16::OFF', 'M18::OFF')
+015. ('M16::OFF', 'M18::OFF', 'M15::ON')
+016. ('M18::OFF', 'M15::ON', 'M16::ON')
+017. ('M15::ON', 'M16::ON', 'M14::ON')
+018. ('M16::ON', 'M14::ON', 'M17::OFF')
+019. ('M14::ON', 'M17::OFF', 'M16::OFF')
+020. ('M17::OFF', 'M16::OFF', 'M15::OFF')
+021. ('M16::OFF', 'M15::OFF', 'M13::ON')
+022. ('M15::OFF', 'M13::ON', 'M14::OFF')
+023. ('M13::ON', 'ASTERISK::START', 'M13::ON')
+024. ('M13::OFF', 'M13::ON', 'I08::PRESENT')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('M01::OFF', 'M08::OFF', 'M07::OFF')
+002. ('M01::ON', 'M07::ON', 'M09::ON')
+003. ('M07::OFF', 'M17::ON', 'M15::OFF')
+004. ('M07::ON', 'M09::ON', 'M08::ON')
+005. ('M08::OFF', 'M07::OFF', 'M17::ON')
+006. ('M08::ON', 'M23::OFF', 'M16::ON')
+007. ('M09::OFF', 'M01::OFF', 'M08::OFF')
+008. ('M09::ON', 'M08::ON', 'M23::OFF')
+009. ('M13::OFF', 'M13::ON', 'I08::PRESENT')
+010. ('M13::ON', 'ASTERISK::START', 'M13::ON')
+011. ('M14::ON', 'M17::OFF', 'M16::OFF')
+012. ('M15::OFF', 'M13::ON', 'M14::OFF')
+013. ('M15::OFF', 'M18::ON', 'M16::OFF')
+014. ('M15::ON', 'M09::OFF', 'M01::OFF')
+015. ('M15::ON', 'M16::ON', 'M14::ON')
+016. ('M16::OFF', 'M15::OFF', 'M13::ON')
+017. ('M16::OFF', 'M18::OFF', 'M15::ON')
+018. ('M16::ON', 'M14::ON', 'M17::OFF')
+019. ('M16::ON', 'M15::ON', 'M09::OFF')
+020. ('M17::OFF', 'M16::OFF', 'M15::OFF')
+021. ('M17::ON', 'M15::OFF', 'M18::ON')
+022. ('M18::OFF', 'M15::ON', 'M16::ON')
+023. ('M18::ON', 'M16::OFF', 'M18::OFF')
+024. ('M23::OFF', 'M16::ON', 'M15::ON')

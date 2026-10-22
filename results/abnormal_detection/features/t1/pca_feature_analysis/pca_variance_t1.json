@@ -1,0 +1,14 @@
+{
+  "target_activity_code": "t1",
+  "feature_config": [
+    "MEAN_DT",
+    "MEAN_TRANSITION_LOG_LIK",
+    "P90_MINUS_P50"
+  ],
+  "n_normal_sessions": 24,
+  "n_error_sessions": 20,
+  "n_features": 3,
+  "pc1_explained_variance_ratio": 0.5672513187417044,
+  "pc2_explained_variance_ratio": 0.3331876418243902,
+  "pc1_pc2_total_explained_variance_ratio": 0.9004389605660946
+}

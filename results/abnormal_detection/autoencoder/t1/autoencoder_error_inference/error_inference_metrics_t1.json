@@ -1,0 +1,16 @@
+{
+  "model_type": "Autoencoder",
+  "target_activity_code": "t1",
+  "use_activity_aware_loss": false,
+  "loss_name": "mse",
+  "huber_delta": null,
+  "loss_name_by_activity": null,
+  "huber_delta_by_activity": null,
+  "n_error_sessions": 20,
+  "threshold": 0.39437186092138293,
+  "prediction_mode": "percentile_threshold",
+  "thresholds_by_activity": null,
+  "n_predicted_normal": 12,
+  "n_predicted_anomaly": 8,
+  "predicted_anomaly_rate": 0.4
+}

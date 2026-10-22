@@ -1,0 +1,13 @@
+{
+  "target_activity_code": "t3",
+  "feature_config": [
+    "analogue_ad1_a_last_value",
+    "EXTRA_EVENT_RATIO"
+  ],
+  "n_normal_sessions": 24,
+  "n_error_sessions": 20,
+  "n_features": 2,
+  "pc1_explained_variance_ratio": 0.5247079863694231,
+  "pc2_explained_variance_ratio": 0.47529201363057677,
+  "pc1_pc2_total_explained_variance_ratio": 0.9999999999999998
+}

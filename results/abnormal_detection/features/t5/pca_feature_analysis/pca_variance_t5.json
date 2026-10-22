@@ -1,0 +1,17 @@
+{
+  "target_activity_code": "t5",
+  "feature_config": [
+    "EPISODE_DURATION",
+    "NUM_EVENTS",
+    "UNIQUE_SENSOR_MESSAGE_COUNT",
+    "P90",
+    "MISSING_EVENT_RATIO",
+    "analogue_ad1_b::ACTIVE"
+  ],
+  "n_normal_sessions": 24,
+  "n_error_sessions": 20,
+  "n_features": 6,
+  "pc1_explained_variance_ratio": 0.7499233295396301,
+  "pc2_explained_variance_ratio": 0.15567571819980097,
+  "pc1_pc2_total_explained_variance_ratio": 0.9055990477394311
+}

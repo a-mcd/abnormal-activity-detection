@@ -1,0 +1,6 @@
+filename,participant_id,activity_code,activity_index,dataset,sensor::I06,EPISODE_DURATION,analogue_ad1_a_last_value,UNIQUE_SENSOR_MESSAGE_COUNT
+p05.t4.csv,p05,t4,3,normal,1,365.314228,-1.0,19
+p10.t4.csv,p10,t4,3,normal,1,109.073479,-1.0,20
+p15.t4.csv,p15,t4,3,normal,1,80.961199,-1.0,16
+p42.t4.csv,p42,t4,3,normal,1,95.229347,-1.0,16
+p51.t4.csv,p51,t4,3,normal,1,56.258718,-1.0,19

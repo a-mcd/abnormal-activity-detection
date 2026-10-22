@@ -1,0 +1,7 @@
+,pred_t1,pred_t2,pred_t3,pred_t4,pred_t5,row_total
+actual_t1,24,0,0,0,0,24
+actual_t2,0,22,1,0,1,24
+actual_t3,0,1,22,1,0,24
+actual_t4,1,1,0,21,1,24
+actual_t5,0,1,1,0,22,24
+col_total,25,25,24,22,24,120

@@ -1,0 +1,11 @@
+activity_code,actual_label,pred_normal,pred_anomaly
+t1,Actual_Normal,0,0
+t1,Actual_Anomaly,17,3
+t2,Actual_Normal,0,0
+t2,Actual_Anomaly,10,10
+t3,Actual_Normal,0,0
+t3,Actual_Anomaly,12,8
+t4,Actual_Normal,0,0
+t4,Actual_Anomaly,7,13
+t5,Actual_Normal,0,0
+t5,Actual_Anomaly,3,17

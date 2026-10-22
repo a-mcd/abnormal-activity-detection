@@ -1,0 +1,83 @@
+{
+  "target_activity_code": "t4",
+  "model_type": "IsolationForest",
+  "n_estimators": 200,
+  "max_samples": 1.0,
+  "contamination": 0.01,
+  "max_features": 1.0,
+  "bootstrap": false,
+  "random_state": 42,
+  "threshold_percentile": 3,
+  "prediction_mode": "percentile_threshold",
+  "n_splits": 5,
+  "n_total_normal_sessions": 24,
+  "n_total_predicted_normal": 23,
+  "n_total_predicted_anomaly": 1,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "prediction_mode": "percentile_threshold",
+      "n_train_normal": 19,
+      "n_val_normal": 5,
+      "n_features": 4,
+      "threshold_percentile": 3,
+      "threshold": 0.03253033575999597,
+      "n_predicted_normal": 5,
+      "n_predicted_anomaly": 0,
+      "n_native_predicted_normal": 5,
+      "n_native_predicted_anomaly": 0
+    },
+    {
+      "fold": 2,
+      "prediction_mode": "percentile_threshold",
+      "n_train_normal": 19,
+      "n_val_normal": 5,
+      "n_features": 4,
+      "threshold_percentile": 3,
+      "threshold": 0.00047646337409520403,
+      "n_predicted_normal": 4,
+      "n_predicted_anomaly": 1,
+      "n_native_predicted_normal": 4,
+      "n_native_predicted_anomaly": 1
+    },
+    {
+      "fold": 3,
+      "prediction_mode": "percentile_threshold",
+      "n_train_normal": 19,
+      "n_val_normal": 5,
+      "n_features": 4,
+      "threshold_percentile": 3,
+      "threshold": 0.011791361160720245,
+      "n_predicted_normal": 5,
+      "n_predicted_anomaly": 0,
+      "n_native_predicted_normal": 5,
+      "n_native_predicted_anomaly": 0
+    },
+    {
+      "fold": 4,
+      "prediction_mode": "percentile_threshold",
+      "n_train_normal": 19,
+      "n_val_normal": 5,
+      "n_features": 4,
+      "threshold_percentile": 3,
+      "threshold": 0.015598820932297554,
+      "n_predicted_normal": 5,
+      "n_predicted_anomaly": 0,
+      "n_native_predicted_normal": 5,
+      "n_native_predicted_anomaly": 0
+    },
+    {
+      "fold": 5,
+      "prediction_mode": "percentile_threshold",
+      "n_train_normal": 20,
+      "n_val_normal": 4,
+      "n_features": 4,
+      "threshold_percentile": 3,
+      "threshold": 0.027347075608315646,
+      "n_predicted_normal": 4,
+      "n_predicted_anomaly": 0,
+      "n_native_predicted_normal": 4,
+      "n_native_predicted_anomaly": 0
+    }
+  ]
+}

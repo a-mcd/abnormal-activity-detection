@@ -1,0 +1,22 @@
+{
+  "model_type": "Autoencoder",
+  "target_activity_code": "t-all",
+  "use_activity_aware_loss": false,
+  "loss_name": "mse",
+  "huber_delta": null,
+  "loss_name_by_activity": null,
+  "huber_delta_by_activity": null,
+  "n_error_sessions": 100,
+  "threshold": null,
+  "prediction_mode": "percentile_threshold_by_activity",
+  "thresholds_by_activity": {
+    "t1": 25.879952049255373,
+    "t2": 19.728524017333985,
+    "t3": 93.4036590576172,
+    "t4": 40.53391933441162,
+    "t5": 23.803383350372314
+  },
+  "n_predicted_normal": 73,
+  "n_predicted_anomaly": 27,
+  "predicted_anomaly_rate": 0.27
+}

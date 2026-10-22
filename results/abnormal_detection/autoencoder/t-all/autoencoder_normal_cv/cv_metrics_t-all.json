@@ -1,0 +1,184 @@
+{
+  "target_activity_code": "t-all",
+  "model_type": "Autoencoder",
+  "use_activity_aware_loss": false,
+  "loss_name": "mse",
+  "huber_delta": null,
+  "loss_name_by_activity": null,
+  "huber_delta_by_activity": null,
+  "threshold_percentile": null,
+  "threshold_percentiles_by_activity": {
+    "t1": 65,
+    "t2": 70,
+    "t3": 80,
+    "t4": 75,
+    "t5": 75
+  },
+  "prediction_mode": "percentile_threshold_by_activity",
+  "n_splits": 5,
+  "n_total_normal_sessions": 120,
+  "n_total_predicted_normal": 85,
+  "n_total_predicted_anomaly": 35,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 20,
+      "use_activity_aware_loss": false,
+      "loss_name": "mse",
+      "huber_delta": null,
+      "loss_name_by_activity": null,
+      "huber_delta_by_activity": null,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 65,
+        "t2": 70,
+        "t3": 80,
+        "t4": 75,
+        "t5": 75
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 17.370305633544923,
+        "t2": 19.656826400756835,
+        "t3": 93.73406524658206,
+        "t4": 45.8809928894043,
+        "t5": 22.41371726989746
+      },
+      "n_predicted_normal": 17,
+      "n_predicted_anomaly": 8,
+      "n_native_predicted_normal": 17,
+      "n_native_predicted_anomaly": 8
+    },
+    {
+      "fold": 2,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 20,
+      "use_activity_aware_loss": false,
+      "loss_name": "mse",
+      "huber_delta": null,
+      "loss_name_by_activity": null,
+      "huber_delta_by_activity": null,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 65,
+        "t2": 70,
+        "t3": 80,
+        "t4": 75,
+        "t5": 75
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 20.000404930114748,
+        "t2": 14.09197597503662,
+        "t3": 89.72977752685547,
+        "t4": 38.70069122314453,
+        "t5": 20.970449447631836
+      },
+      "n_predicted_normal": 18,
+      "n_predicted_anomaly": 7,
+      "n_native_predicted_normal": 18,
+      "n_native_predicted_anomaly": 7
+    },
+    {
+      "fold": 3,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 20,
+      "use_activity_aware_loss": false,
+      "loss_name": "mse",
+      "huber_delta": null,
+      "loss_name_by_activity": null,
+      "huber_delta_by_activity": null,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 65,
+        "t2": 70,
+        "t3": 80,
+        "t4": 75,
+        "t5": 75
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 24.53456859588623,
+        "t2": 19.57542495727539,
+        "t3": 122.6227981567383,
+        "t4": 31.82048988342285,
+        "t5": 29.61406135559082
+      },
+      "n_predicted_normal": 19,
+      "n_predicted_anomaly": 6,
+      "n_native_predicted_normal": 19,
+      "n_native_predicted_anomaly": 6
+    },
+    {
+      "fold": 4,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 20,
+      "use_activity_aware_loss": false,
+      "loss_name": "mse",
+      "huber_delta": null,
+      "loss_name_by_activity": null,
+      "huber_delta_by_activity": null,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 65,
+        "t2": 70,
+        "t3": 80,
+        "t4": 75,
+        "t5": 75
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 29.091065597534183,
+        "t2": 25.028801345825194,
+        "t3": 70.16033935546875,
+        "t4": 35.02385139465332,
+        "t5": 16.831180572509766
+      },
+      "n_predicted_normal": 18,
+      "n_predicted_anomaly": 7,
+      "n_native_predicted_normal": 18,
+      "n_native_predicted_anomaly": 7
+    },
+    {
+      "fold": 5,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 100,
+      "n_val_normal": 20,
+      "n_features": 20,
+      "use_activity_aware_loss": false,
+      "loss_name": "mse",
+      "huber_delta": null,
+      "loss_name_by_activity": null,
+      "huber_delta_by_activity": null,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 65,
+        "t2": 70,
+        "t3": 80,
+        "t4": 75,
+        "t5": 75
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 933.5991729736328,
+        "t2": 180.35080261230468,
+        "t3": 11208.041210937501,
+        "t4": 790.6879119873047,
+        "t5": 6108.7860107421875
+      },
+      "n_predicted_normal": 13,
+      "n_predicted_anomaly": 7,
+      "n_native_predicted_normal": 13,
+      "n_native_predicted_anomaly": 7
+    }
+  ]
+}

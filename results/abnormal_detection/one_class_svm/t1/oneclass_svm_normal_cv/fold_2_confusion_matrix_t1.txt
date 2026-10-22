@@ -1,0 +1,6 @@
+Fold 2 Confusion Matrix
+Rows = Actual, Columns = Predicted
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             4             1
+Actual_Anomaly            0             0

@@ -1,0 +1,5 @@
+filename,participant_id,activity_code,activity_index,dataset,fold,y_true,y_pred,true_label,pred_label,decision_score,threshold,prediction_mode,native_pred
+p04.t1.csv,p04,t1,0,normal,5,0,1,normal,anomaly,-9.276139560004418e-05,,native_ocsvm,1
+p09.t1.csv,p09,t1,0,normal,5,0,0,normal,normal,0.0001155112511816299,,native_ocsvm,0
+p14.t1.csv,p14,t1,0,normal,5,0,0,normal,normal,0.00032183023269436345,,native_ocsvm,0
+p41.t1.csv,p41,t1,0,normal,5,0,0,normal,normal,0.0013164392095673524,,native_ocsvm,0

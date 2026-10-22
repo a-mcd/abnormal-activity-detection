@@ -1,0 +1,13 @@
+{
+  "model_type": "OneClassSVM",
+  "target_activity_code": "t5",
+  "n_error_sessions": 20,
+  "threshold": -0.0003663384003394857,
+  "prediction_mode": "percentile_threshold",
+  "thresholds_by_activity": null,
+  "n_predicted_normal": 2,
+  "n_predicted_anomaly": 18,
+  "n_native_predicted_normal": 0,
+  "n_native_predicted_anomaly": 20,
+  "predicted_anomaly_rate": 0.9
+}

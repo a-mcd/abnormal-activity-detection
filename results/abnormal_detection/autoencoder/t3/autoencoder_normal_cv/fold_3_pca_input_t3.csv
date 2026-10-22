@@ -1,0 +1,6 @@
+filename,participant_id,activity_code,activity_index,dataset,analogue_ad1_a_last_value,EXTRA_EVENT_RATIO,fold,y_true,y_pred,true_label,pred_label,reconstruction_error,threshold,prediction_mode,native_pred
+p02.t3.csv,p02,t3,2,normal,2.87879,0.0,3,0,0,normal,normal,0.11806835,6.718123822212228,percentile_threshold,0
+p07.t3.csv,p07,t3,2,normal,2.87043,0.0,3,0,0,normal,normal,0.34379527,6.718123822212228,percentile_threshold,0
+p12.t3.csv,p12,t3,2,normal,2.85168,0.0,3,0,0,normal,normal,1.3581271,6.718123822212228,percentile_threshold,0
+p32.t3.csv,p32,t3,2,normal,2.83247,0.0,3,0,0,normal,normal,3.1262012,6.718123822212228,percentile_threshold,0
+p49.t3.csv,p49,t3,2,normal,2.83442,0.0,3,0,0,normal,normal,2.9130843,6.718123822212228,percentile_threshold,0

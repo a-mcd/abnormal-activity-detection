@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+          t1       1.00      0.96      0.98        24
+          t2       1.00      0.75      0.86        24
+          t3       1.00      1.00      1.00        24
+          t4       0.92      0.96      0.94        24
+          t5       0.80      1.00      0.89        24
+
+    accuracy                           0.93       120
+   macro avg       0.94      0.93      0.93       120
+weighted avg       0.94      0.93      0.93       120

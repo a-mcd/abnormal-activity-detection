@@ -1,0 +1,14 @@
+{
+  "target_activity_code": "t2",
+  "feature_config": [
+    "UNEXPECTED_SENSOR_DURING_TAP_WINDOW",
+    "AD1_BC_ACTIVE_LAST_8S",
+    "LAST_TAP_VALUE_LT_2_5"
+  ],
+  "n_normal_sessions": 24,
+  "n_error_sessions": 20,
+  "n_features": 3,
+  "pc1_explained_variance_ratio": 0.46992229607740443,
+  "pc2_explained_variance_ratio": 0.3333333333333335,
+  "pc1_pc2_total_explained_variance_ratio": 0.8032556294107379
+}

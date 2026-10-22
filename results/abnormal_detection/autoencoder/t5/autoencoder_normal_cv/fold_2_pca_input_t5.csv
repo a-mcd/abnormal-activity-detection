@@ -1,0 +1,6 @@
+filename,participant_id,activity_code,activity_index,dataset,EPISODE_DURATION,NUM_EVENTS,UNIQUE_SENSOR_MESSAGE_COUNT,P90,MISSING_EVENT_RATIO,analogue_ad1_b::ACTIVE,fold,y_true,y_pred,true_label,pred_label,reconstruction_error,threshold,prediction_mode,native_pred
+p06.t5.csv,p06,t5,4,normal,429.096973,60,21,14.9244056,0.34375,1.0,2,0,0,normal,normal,1.0146432,3.594089937210083,percentile_threshold,0
+p11.t5.csv,p11,t5,4,normal,328.253133,64,20,12.817050000000002,0.375,1.0,2,0,0,normal,normal,0.1640345,3.594089937210083,percentile_threshold,0
+p16.t5.csv,p16,t5,4,normal,338.969701,105,23,9.938520400000002,0.28125,1.0,2,0,0,normal,normal,1.3589379,3.594089937210083,percentile_threshold,0
+p43.t5.csv,p43,t5,4,normal,167.259996,44,20,6.374942,0.375,1.0,2,0,0,normal,normal,0.75361544,3.594089937210083,percentile_threshold,0
+p50.t5.csv,p50,t5,4,normal,228.26037,49,20,9.6326325,0.375,1.0,2,0,0,normal,normal,0.16433235,3.594089937210083,percentile_threshold,0

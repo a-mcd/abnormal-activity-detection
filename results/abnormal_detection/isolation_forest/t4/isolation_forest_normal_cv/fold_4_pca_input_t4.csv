@@ -1,0 +1,6 @@
+filename,participant_id,activity_code,activity_index,dataset,sensor::I06,EPISODE_DURATION,analogue_ad1_a_last_value,UNIQUE_SENSOR_MESSAGE_COUNT,fold,y_true,y_pred,true_label,pred_label,decision_score,threshold,prediction_mode,native_pred
+p01.t4.csv,p01,t4,3,normal,1,174.915603,-1.0,13,4,0,0,normal,normal,0.17273731487830707,0.015598820932297554,percentile_threshold,0
+p03.t4.csv,p03,t4,3,normal,1,93.297248,2.86575,18,4,0,0,normal,normal,0.06383993920344422,0.015598820932297554,percentile_threshold,0
+p08.t4.csv,p08,t4,3,normal,1,77.190336,-1.0,21,4,0,0,normal,normal,0.17007064581543035,0.015598820932297554,percentile_threshold,0
+p13.t4.csv,p13,t4,3,normal,1,66.288483,-1.0,17,4,0,0,normal,normal,0.27588974933304244,0.015598820932297554,percentile_threshold,0
+p40.t4.csv,p40,t4,3,normal,1,89.94861,-1.0,17,4,0,0,normal,normal,0.29229003401102416,0.015598820932297554,percentile_threshold,0

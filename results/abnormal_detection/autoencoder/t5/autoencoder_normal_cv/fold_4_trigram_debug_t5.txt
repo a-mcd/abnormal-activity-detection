@@ -1,0 +1,1263 @@
+====================================================================================================
+FOLD 4 TRIGRAM DEBUG
+====================================================================================================
+
+TRAIN REFERENCE TRIGRAM VOCAB
+----------------------------------------------------------------------------------------------------
+Total reference trigrams: 519
+
+001. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-B::DOWN')
+002. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-B::UP')
+003. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-C::DOWN')
+004. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-C::START')
+005. ('AD1-B::DOWN', 'AD1-B::DOWN', 'M17::OFF')
+006. ('AD1-B::DOWN', 'AD1-B::DOWN', 'M17::ON')
+007. ('AD1-B::DOWN', 'AD1-B::DOWN', 'M18::ON')
+008. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-B::DOWN')
+009. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-B::UP')
+010. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-C::DOWN')
+011. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-C::START')
+012. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-C::UP')
+013. ('AD1-B::DOWN', 'AD1-B::UP', 'M17::OFF')
+014. ('AD1-B::DOWN', 'AD1-B::UP', 'M17::ON')
+015. ('AD1-B::DOWN', 'AD1-B::UP', 'M18::ON')
+016. ('AD1-B::DOWN', 'AD1-C::DOWN', 'AD1-B::DOWN')
+017. ('AD1-B::DOWN', 'AD1-C::DOWN', 'AD1-B::UP')
+018. ('AD1-B::DOWN', 'AD1-C::DOWN', 'AD1-C::DOWN')
+019. ('AD1-B::DOWN', 'AD1-C::DOWN', 'AD1-C::UP')
+020. ('AD1-B::DOWN', 'AD1-C::START', 'AD1-B::UP')
+021. ('AD1-B::DOWN', 'AD1-C::UP', 'AD1-B::DOWN')
+022. ('AD1-B::DOWN', 'AD1-C::UP', 'AD1-B::UP')
+023. ('AD1-B::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')
+024. ('AD1-B::DOWN', 'AD1-C::UP', 'M18::ON')
+025. ('AD1-B::DOWN', 'D01::CLOSE', 'M17::OFF')
+026. ('AD1-B::DOWN', 'D01::OPEN', 'D01::CLOSE')
+027. ('AD1-B::DOWN', 'D01::OPEN', 'I06::PRESENT')
+028. ('AD1-B::DOWN', 'I01::PRESENT', 'M17::OFF')
+029. ('AD1-B::DOWN', 'M17::OFF', 'AD1-B::DOWN')
+030. ('AD1-B::DOWN', 'M17::OFF', 'AD1-B::UP')
+031. ('AD1-B::DOWN', 'M17::OFF', 'M17::ON')
+032. ('AD1-B::DOWN', 'M17::ON', 'AD1-B::DOWN')
+033. ('AD1-B::DOWN', 'M17::ON', 'AD1-B::UP')
+034. ('AD1-B::DOWN', 'M17::ON', 'M17::OFF')
+035. ('AD1-B::DOWN', 'M17::ON', 'M18::ON')
+036. ('AD1-B::DOWN', 'M18::OFF', 'AD1-B::UP')
+037. ('AD1-B::DOWN', 'M18::OFF', 'M17::OFF')
+038. ('AD1-B::DOWN', 'M18::OFF', 'M18::ON')
+039. ('AD1-B::DOWN', 'M18::ON', 'AD1-B::UP')
+040. ('AD1-B::DOWN', 'M18::ON', 'D01::OPEN')
+041. ('AD1-B::DOWN', 'M18::ON', 'M18::OFF')
+042. ('AD1-B::DOWN', 'M18::ON', 'M18::ON')
+043. ('AD1-B::START', 'AD1-B::UP', 'AD1-B::DOWN')
+044. ('AD1-B::START', 'AD1-B::UP', 'AD1-B::UP')
+045. ('AD1-B::START', 'AD1-B::UP', 'AD1-C::UP')
+046. ('AD1-B::START', 'AD1-B::UP', 'M17::ON')
+047. ('AD1-B::START', 'AD1-C::UP', 'AD1-B::UP')
+048. ('AD1-B::START', 'M17::OFF', 'AD1-B::UP')
+049. ('AD1-B::START', 'M17::OFF', 'AD1-C::START')
+050. ('AD1-B::START', 'M18::OFF', 'M17::ON')
+051. ('AD1-B::START', 'M18::ON', 'M18::OFF')
+052. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::DOWN')
+053. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::UP')
+054. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-C::DOWN')
+055. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-C::UP')
+056. ('AD1-B::UP', 'AD1-B::DOWN', 'M17::ON')
+057. ('AD1-B::UP', 'AD1-B::DOWN', 'M18::ON')
+058. ('AD1-B::UP', 'AD1-B::UP', 'AD1-B::DOWN')
+059. ('AD1-B::UP', 'AD1-B::UP', 'AD1-B::UP')
+060. ('AD1-B::UP', 'AD1-B::UP', 'AD1-C::DOWN')
+061. ('AD1-B::UP', 'AD1-B::UP', 'AD1-C::START')
+062. ('AD1-B::UP', 'AD1-B::UP', 'AD1-C::UP')
+063. ('AD1-B::UP', 'AD1-B::UP', 'M17::ON')
+064. ('AD1-B::UP', 'AD1-B::UP', 'M18::ON')
+065. ('AD1-B::UP', 'AD1-C::DOWN', 'AD1-B::DOWN')
+066. ('AD1-B::UP', 'AD1-C::DOWN', 'AD1-B::UP')
+067. ('AD1-B::UP', 'AD1-C::DOWN', 'AD1-C::DOWN')
+068. ('AD1-B::UP', 'AD1-C::DOWN', 'AD1-C::UP')
+069. ('AD1-B::UP', 'AD1-C::DOWN', 'M17::ON')
+070. ('AD1-B::UP', 'AD1-C::START', 'AD1-B::DOWN')
+071. ('AD1-B::UP', 'AD1-C::START', 'AD1-B::UP')
+072. ('AD1-B::UP', 'AD1-C::UP', 'AD1-B::DOWN')
+073. ('AD1-B::UP', 'AD1-C::UP', 'AD1-B::UP')
+074. ('AD1-B::UP', 'AD1-C::UP', 'AD1-C::DOWN')
+075. ('AD1-B::UP', 'AD1-C::UP', 'AD1-C::UP')
+076. ('AD1-B::UP', 'AD1-C::UP', 'M17::ON')
+077. ('AD1-B::UP', 'AD1-C::UP', 'M18::OFF')
+078. ('AD1-B::UP', 'D01::OPEN', 'I02::PRESENT')
+079. ('AD1-B::UP', 'M17::OFF', 'AD1-C::UP')
+080. ('AD1-B::UP', 'M17::OFF', 'M17::ON')
+081. ('AD1-B::UP', 'M17::OFF', 'M18::OFF')
+082. ('AD1-B::UP', 'M17::ON', 'AD1-B::DOWN')
+083. ('AD1-B::UP', 'M17::ON', 'AD1-B::UP')
+084. ('AD1-B::UP', 'M17::ON', 'M17::OFF')
+085. ('AD1-B::UP', 'M17::ON', 'M18::ON')
+086. ('AD1-B::UP', 'M18::OFF', 'AD1-B::DOWN')
+087. ('AD1-B::UP', 'M18::OFF', 'AD1-B::UP')
+088. ('AD1-B::UP', 'M18::OFF', 'AD1-C::DOWN')
+089. ('AD1-B::UP', 'M18::ON', 'AD1-B::DOWN')
+090. ('AD1-B::UP', 'M18::ON', 'AD1-C::UP')
+091. ('AD1-B::UP', 'M18::ON', 'M17::ON')
+092. ('AD1-B::UP', 'M18::ON', 'M18::OFF')
+093. ('AD1-B::UP', 'M18::ON', 'M18::ON')
+094. ('AD1-C::DOWN', 'AD1-B::DOWN', 'AD1-B::DOWN')
+095. ('AD1-C::DOWN', 'AD1-B::DOWN', 'AD1-B::UP')
+096. ('AD1-C::DOWN', 'AD1-B::DOWN', 'AD1-C::DOWN')
+097. ('AD1-C::DOWN', 'AD1-B::DOWN', 'AD1-C::UP')
+098. ('AD1-C::DOWN', 'AD1-B::DOWN', 'M18::ON')
+099. ('AD1-C::DOWN', 'AD1-B::UP', 'AD1-B::DOWN')
+100. ('AD1-C::DOWN', 'AD1-B::UP', 'AD1-B::UP')
+101. ('AD1-C::DOWN', 'AD1-B::UP', 'AD1-C::DOWN')
+102. ('AD1-C::DOWN', 'AD1-B::UP', 'AD1-C::UP')
+103. ('AD1-C::DOWN', 'AD1-B::UP', 'M18::ON')
+104. ('AD1-C::DOWN', 'AD1-C::DOWN', 'AD1-B::DOWN')
+105. ('AD1-C::DOWN', 'AD1-C::DOWN', 'AD1-C::DOWN')
+106. ('AD1-C::DOWN', 'AD1-C::DOWN', 'AD1-C::UP')
+107. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-B::DOWN')
+108. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-B::UP')
+109. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')
+110. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::UP')
+111. ('AD1-C::DOWN', 'AD1-C::UP', 'M17::ON')
+112. ('AD1-C::DOWN', 'M17::OFF', 'AD1-B::UP')
+113. ('AD1-C::DOWN', 'M17::OFF', 'AD1-C::UP')
+114. ('AD1-C::DOWN', 'M17::OFF', 'M17::ON')
+115. ('AD1-C::DOWN', 'M17::ON', 'AD1-B::DOWN')
+116. ('AD1-C::DOWN', 'M17::ON', 'AD1-C::DOWN')
+117. ('AD1-C::DOWN', 'M17::ON', 'D01::OPEN')
+118. ('AD1-C::DOWN', 'M17::ON', 'M17::OFF')
+119. ('AD1-C::DOWN', 'M18::ON', 'AD1-B::DOWN')
+120. ('AD1-C::DOWN', 'M18::ON', 'M18::OFF')
+121. ('AD1-C::START', 'AD1-B::DOWN', 'AD1-B::UP')
+122. ('AD1-C::START', 'AD1-B::DOWN', 'AD1-C::UP')
+123. ('AD1-C::START', 'AD1-B::START', 'AD1-B::UP')
+124. ('AD1-C::START', 'AD1-B::START', 'M18::OFF')
+125. ('AD1-C::START', 'AD1-B::UP', 'AD1-B::UP')
+126. ('AD1-C::START', 'AD1-B::UP', 'AD1-C::UP')
+127. ('AD1-C::START', 'AD1-B::UP', 'M17::ON')
+128. ('AD1-C::START', 'AD1-C::UP', 'AD1-B::START')
+129. ('AD1-C::START', 'AD1-C::UP', 'AD1-C::DOWN')
+130. ('AD1-C::START', 'M17::OFF', 'AD1-C::UP')
+131. ('AD1-C::UP', 'AD1-B::DOWN', 'AD1-B::DOWN')
+132. ('AD1-C::UP', 'AD1-B::DOWN', 'AD1-B::UP')
+133. ('AD1-C::UP', 'AD1-B::DOWN', 'AD1-C::DOWN')
+134. ('AD1-C::UP', 'AD1-B::DOWN', 'AD1-C::UP')
+135. ('AD1-C::UP', 'AD1-B::DOWN', 'M17::OFF')
+136. ('AD1-C::UP', 'AD1-B::DOWN', 'M17::ON')
+137. ('AD1-C::UP', 'AD1-B::DOWN', 'M18::ON')
+138. ('AD1-C::UP', 'AD1-B::START', 'AD1-B::UP')
+139. ('AD1-C::UP', 'AD1-B::START', 'AD1-C::UP')
+140. ('AD1-C::UP', 'AD1-B::UP', 'AD1-B::DOWN')
+141. ('AD1-C::UP', 'AD1-B::UP', 'AD1-B::UP')
+142. ('AD1-C::UP', 'AD1-B::UP', 'AD1-C::DOWN')
+143. ('AD1-C::UP', 'AD1-B::UP', 'AD1-C::UP')
+144. ('AD1-C::UP', 'AD1-B::UP', 'M17::ON')
+145. ('AD1-C::UP', 'AD1-B::UP', 'M18::ON')
+146. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-B::UP')
+147. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::DOWN')
+148. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::UP')
+149. ('AD1-C::UP', 'AD1-C::DOWN', 'M17::ON')
+150. ('AD1-C::UP', 'AD1-C::DOWN', 'M18::ON')
+151. ('AD1-C::UP', 'AD1-C::UP', 'AD1-B::START')
+152. ('AD1-C::UP', 'AD1-C::UP', 'AD1-B::UP')
+153. ('AD1-C::UP', 'AD1-C::UP', 'AD1-C::DOWN')
+154. ('AD1-C::UP', 'AD1-C::UP', 'M17::ON')
+155. ('AD1-C::UP', 'AD1-C::UP', 'M18::ON')
+156. ('AD1-C::UP', 'M17::OFF', 'AD1-C::DOWN')
+157. ('AD1-C::UP', 'M17::ON', 'AD1-C::DOWN')
+158. ('AD1-C::UP', 'M17::ON', 'AD1-C::UP')
+159. ('AD1-C::UP', 'M17::ON', 'M17::OFF')
+160. ('AD1-C::UP', 'M18::OFF', 'AD1-B::DOWN')
+161. ('AD1-C::UP', 'M18::ON', 'M18::OFF')
+162. ('D01::CLOSE', 'AD1-B::START', 'M17::OFF')
+163. ('D01::CLOSE', 'M16::ON', 'M15::ON')
+164. ('D01::CLOSE', 'M17::OFF', 'AD1-B::START')
+165. ('D01::CLOSE', 'M17::OFF', 'M16::ON')
+166. ('D01::CLOSE', 'M17::OFF', 'M17::ON')
+167. ('D01::CLOSE', 'M17::ON', 'AD1-B::DOWN')
+168. ('D01::CLOSE', 'M17::ON', 'M17::OFF')
+169. ('D01::CLOSE', 'M17::ON', 'M18::ON')
+170. ('D01::CLOSE', 'M18::OFF', 'AD1-C::DOWN')
+171. ('D01::CLOSE', 'M18::OFF', 'M17::OFF')
+172. ('D01::CLOSE', 'M18::ON', 'M17::OFF')
+173. ('D01::OPEN', 'D01::CLOSE', 'M17::OFF')
+174. ('D01::OPEN', 'I01::PRESENT', 'M17::OFF')
+175. ('D01::OPEN', 'I02::PRESENT', 'AD1-B::DOWN')
+176. ('D01::OPEN', 'I05::PRESENT', 'M17::OFF')
+177. ('D01::OPEN', 'I06::ABSENT', 'I01::PRESENT')
+178. ('D01::OPEN', 'I06::ABSENT', 'M17::OFF')
+179. ('D01::OPEN', 'I06::PRESENT', 'AD1-B::DOWN')
+180. ('D01::OPEN', 'I06::PRESENT', 'D01::CLOSE')
+181. ('D01::OPEN', 'I06::PRESENT', 'M17::OFF')
+182. ('D01::OPEN', 'I06::PRESENT', 'M17::ON')
+183. ('D01::OPEN', 'M16::OFF', 'I06::ABSENT')
+184. ('D01::OPEN', 'M16::OFF', 'I06::PRESENT')
+185. ('D01::OPEN', 'M17::OFF', 'M17::ON')
+186. ('D01::OPEN', 'M18::OFF', 'I04::PRESENT')
+187. ('D01::OPEN', 'M18::OFF', 'I06::PRESENT')
+188. ('D01::OPEN', 'M18::OFF', 'M17::OFF')
+189. ('I01::ABSENT', 'I07::PRESENT', 'I01::PRESENT')
+190. ('I01::PRESENT', 'I05::PRESENT', 'I05::ABSENT')
+191. ('I01::PRESENT', 'I06::PRESENT', 'D01::CLOSE')
+192. ('I01::PRESENT', 'M17::OFF', 'D01::CLOSE')
+193. ('I01::PRESENT', 'M17::OFF', 'I03::PRESENT')
+194. ('I01::PRESENT', 'M17::OFF', 'I05::PRESENT')
+195. ('I01::PRESENT', 'M17::ON', 'AD1-C::START')
+196. ('I01::PRESENT', 'M17::ON', 'I06::PRESENT')
+197. ('I01::PRESENT', 'M18::ON', 'D01::CLOSE')
+198. ('I02::PRESENT', 'AD1-B::DOWN', 'I01::PRESENT')
+199. ('I02::PRESENT', 'D01::CLOSE', 'M17::OFF')
+200. ('I02::PRESENT', 'D01::CLOSE', 'M17::ON')
+201. ('I02::PRESENT', 'I01::PRESENT', 'I06::PRESENT')
+202. ('I02::PRESENT', 'M17::OFF', 'M17::ON')
+203. ('I03::ABSENT', 'I02::PRESENT', 'M17::OFF')
+204. ('I03::PRESENT', 'I01::ABSENT', 'I07::PRESENT')
+205. ('I03::PRESENT', 'M17::ON', 'I03::ABSENT')
+206. ('I04::ABSENT', 'I01::PRESENT', 'M17::ON')
+207. ('I04::ABSENT', 'I04::PRESENT', 'M17::ON')
+208. ('I04::PRESENT', 'I01::PRESENT', 'M18::ON')
+209. ('I04::PRESENT', 'I04::ABSENT', 'I01::PRESENT')
+210. ('I04::PRESENT', 'I04::ABSENT', 'I04::PRESENT')
+211. ('I04::PRESENT', 'I05::PRESENT', 'I05::ABSENT')
+212. ('I04::PRESENT', 'M17::OFF', 'I02::PRESENT')
+213. ('I04::PRESENT', 'M17::ON', 'D01::CLOSE')
+214. ('I04::PRESENT', 'M17::ON', 'M17::OFF')
+215. ('I05::ABSENT', 'I05::PRESENT', 'M17::ON')
+216. ('I05::ABSENT', 'M17::ON', 'D01::CLOSE')
+217. ('I05::PRESENT', 'I02::PRESENT', 'D01::CLOSE')
+218. ('I05::PRESENT', 'I05::ABSENT', 'I05::PRESENT')
+219. ('I05::PRESENT', 'I05::ABSENT', 'M17::ON')
+220. ('I05::PRESENT', 'M17::OFF', 'I04::PRESENT')
+221. ('I05::PRESENT', 'M17::OFF', 'M17::ON')
+222. ('I05::PRESENT', 'M17::ON', 'D01::CLOSE')
+223. ('I06::ABSENT', 'I01::PRESENT', 'I05::PRESENT')
+224. ('I06::ABSENT', 'M17::OFF', 'M17::ON')
+225. ('I06::PRESENT', 'AD1-B::DOWN', 'M17::OFF')
+226. ('I06::PRESENT', 'D01::CLOSE', 'M16::ON')
+227. ('I06::PRESENT', 'D01::CLOSE', 'M17::OFF')
+228. ('I06::PRESENT', 'I04::PRESENT', 'I04::ABSENT')
+229. ('I06::PRESENT', 'M17::OFF', 'I04::PRESENT')
+230. ('I06::PRESENT', 'M17::OFF', 'M17::ON')
+231. ('I06::PRESENT', 'M17::ON', 'I04::PRESENT')
+232. ('I06::PRESENT', 'M18::ON', 'M17::OFF')
+233. ('I07::PRESENT', 'I01::PRESENT', 'M17::ON')
+234. ('M13::OFF', 'M13::ON', 'M13::OFF')
+235. ('M13::OFF', 'M13::ON', 'M13::ON')
+236. ('M13::OFF', 'M14::OFF', 'M14::ON')
+237. ('M13::OFF', 'M14::OFF', 'M15::OFF')
+238. ('M13::OFF', 'M14::ON', 'M13::ON')
+239. ('M13::OFF', 'M14::ON', 'M14::OFF')
+240. ('M13::OFF', 'M14::ON', 'M15::ON')
+241. ('M13::OFF', 'M15::OFF', 'M14::OFF')
+242. ('M13::OFF', 'M15::ON', 'M16::ON')
+243. ('M13::OFF', 'M16::OFF', 'M17::OFF')
+244. ('M13::OFF', 'M16::ON', 'M17::ON')
+245. ('M13::OFF', 'M17::ON', 'M14::OFF')
+246. ('M13::OFF', 'M17::ON', 'M15::OFF')
+247. ('M13::ON', 'M13::OFF', 'M13::ON')
+248. ('M13::ON', 'M13::OFF', 'M14::OFF')
+249. ('M13::ON', 'M13::OFF', 'M14::ON')
+250. ('M13::ON', 'M13::OFF', 'M15::ON')
+251. ('M13::ON', 'M13::ON', 'M13::OFF')
+252. ('M13::ON', 'M14::OFF', 'M13::OFF')
+253. ('M13::ON', 'M14::OFF', 'M14::ON')
+254. ('M13::ON', 'M14::ON', 'M14::OFF')
+255. ('M13::ON', 'M14::ON', 'M14::ON')
+256. ('M13::ON', 'M14::ON', 'M15::ON')
+257. ('M13::ON', 'M15::ON', 'M16::ON')
+258. ('M13::ON', 'M16::OFF', 'M15::ON')
+259. ('M13::ON', 'M16::ON', 'M13::OFF')
+260. ('M13::ON', 'M17::OFF', 'M16::OFF')
+261. ('M14::OFF', 'D01::OPEN', 'M16::OFF')
+262. ('M14::OFF', 'M13::OFF', 'M14::ON')
+263. ('M14::OFF', 'M13::OFF', 'M16::OFF')
+264. ('M14::OFF', 'M14::ON', 'M13::ON')
+265. ('M14::OFF', 'M14::ON', 'M15::ON')
+266. ('M14::OFF', 'M15::OFF', 'D01::OPEN')
+267. ('M14::OFF', 'M15::OFF', 'M15::ON')
+268. ('M14::OFF', 'M15::OFF', 'M16::OFF')
+269. ('M14::OFF', 'M16::OFF', 'D01::OPEN')
+270. ('M14::OFF', 'M16::OFF', 'M15::OFF')
+271. ('M14::OFF', 'M16::OFF', 'M17::OFF')
+272. ('M14::OFF', 'M17::ON', 'M15::OFF')
+273. ('M14::ON', 'M13::OFF', 'M14::OFF')
+274. ('M14::ON', 'M13::OFF', 'M14::ON')
+275. ('M14::ON', 'M13::ON', 'M13::OFF')
+276. ('M14::ON', 'M13::ON', 'M14::OFF')
+277. ('M14::ON', 'M13::ON', 'M15::ON')
+278. ('M14::ON', 'M13::ON', 'M17::OFF')
+279. ('M14::ON', 'M14::OFF', 'M13::OFF')
+280. ('M14::ON', 'M14::OFF', 'M14::ON')
+281. ('M14::ON', 'M14::ON', 'M13::OFF')
+282. ('M14::ON', 'M15::OFF', 'M17::OFF')
+283. ('M14::ON', 'M15::ON', 'M13::OFF')
+284. ('M14::ON', 'M15::ON', 'M13::ON')
+285. ('M14::ON', 'M15::ON', 'M16::ON')
+286. ('M14::ON', 'M16::OFF', 'M16::ON')
+287. ('M14::ON', 'M17::OFF', 'M18::OFF')
+288. ('M15::OFF', 'D01::OPEN', 'I06::PRESENT')
+289. ('M15::OFF', 'D01::OPEN', 'M16::OFF')
+290. ('M15::OFF', 'M14::OFF', 'D01::OPEN')
+291. ('M15::OFF', 'M14::OFF', 'M13::OFF')
+292. ('M15::OFF', 'M14::OFF', 'M14::ON')
+293. ('M15::OFF', 'M14::OFF', 'M16::OFF')
+294. ('M15::OFF', 'M15::ON', 'M14::ON')
+295. ('M15::OFF', 'M16::OFF', 'D01::OPEN')
+296. ('M15::OFF', 'M16::OFF', 'M17::OFF')
+297. ('M15::OFF', 'M16::OFF', 'M18::ON')
+298. ('M15::OFF', 'M16::ON', 'M15::ON')
+299. ('M15::OFF', 'M17::OFF', 'M13::ON')
+300. ('M15::OFF', 'M17::OFF', 'M17::ON')
+301. ('M15::OFF', 'M17::ON', 'M14::OFF')
+302. ('M15::ON', 'M13::OFF', 'M16::ON')
+303. ('M15::ON', 'M13::ON', 'M16::ON')
+304. ('M15::ON', 'M14::ON', 'M13::ON')
+305. ('M15::ON', 'M14::ON', 'M15::OFF')
+306. ('M15::ON', 'M14::ON', 'M16::OFF')
+307. ('M15::ON', 'M16::ON', 'M13::OFF')
+308. ('M15::ON', 'M16::ON', 'M14::ON')
+309. ('M15::ON', 'M16::ON', 'M15::OFF')
+310. ('M15::ON', 'M16::ON', 'M17::ON')
+311. ('M16::OFF', 'D01::OPEN', 'I01::PRESENT')
+312. ('M16::OFF', 'D01::OPEN', 'I06::PRESENT')
+313. ('M16::OFF', 'I06::ABSENT', 'M17::OFF')
+314. ('M16::OFF', 'I06::PRESENT', 'D01::CLOSE')
+315. ('M16::OFF', 'I06::PRESENT', 'M17::OFF')
+316. ('M16::OFF', 'M14::OFF', 'M15::OFF')
+317. ('M16::OFF', 'M15::OFF', 'M14::OFF')
+318. ('M16::OFF', 'M15::OFF', 'M16::ON')
+319. ('M16::OFF', 'M15::OFF', 'M17::OFF')
+320. ('M16::OFF', 'M15::ON', 'M16::ON')
+321. ('M16::OFF', 'M16::ON', 'M17::OFF')
+322. ('M16::OFF', 'M17::OFF', 'AD1-B::START')
+323. ('M16::OFF', 'M17::OFF', 'AD1-C::START')
+324. ('M16::OFF', 'M17::OFF', 'M17::ON')
+325. ('M16::OFF', 'M17::OFF', 'M18::ON')
+326. ('M16::OFF', 'M18::ON', 'M18::OFF')
+327. ('M16::ON', 'M13::OFF', 'M17::ON')
+328. ('M16::ON', 'M14::ON', 'M17::OFF')
+329. ('M16::ON', 'M15::OFF', 'M17::ON')
+330. ('M16::ON', 'M15::ON', 'M14::ON')
+331. ('M16::ON', 'M17::OFF', 'M14::OFF')
+332. ('M16::ON', 'M17::ON', 'M13::OFF')
+333. ('M16::ON', 'M17::ON', 'M14::OFF')
+334. ('M16::ON', 'M17::ON', 'M15::OFF')
+335. ('M16::ON', 'M17::ON', 'M16::OFF')
+336. ('M16::ON', 'M17::ON', 'M17::ON')
+337. ('M17::OFF', 'AD1-B::DOWN', 'AD1-B::DOWN')
+338. ('M17::OFF', 'AD1-B::DOWN', 'AD1-B::UP')
+339. ('M17::OFF', 'AD1-B::DOWN', 'M17::ON')
+340. ('M17::OFF', 'AD1-B::DOWN', 'M18::OFF')
+341. ('M17::OFF', 'AD1-B::DOWN', 'M18::ON')
+342. ('M17::OFF', 'AD1-B::START', 'AD1-B::UP')
+343. ('M17::OFF', 'AD1-B::START', 'M18::ON')
+344. ('M17::OFF', 'AD1-B::UP', 'AD1-B::DOWN')
+345. ('M17::OFF', 'AD1-B::UP', 'AD1-B::UP')
+346. ('M17::OFF', 'AD1-B::UP', 'M17::ON')
+347. ('M17::OFF', 'AD1-B::UP', 'M18::OFF')
+348. ('M17::OFF', 'AD1-B::UP', 'M18::ON')
+349. ('M17::OFF', 'AD1-C::DOWN', 'AD1-B::DOWN')
+350. ('M17::OFF', 'AD1-C::DOWN', 'AD1-B::UP')
+351. ('M17::OFF', 'AD1-C::DOWN', 'AD1-C::UP')
+352. ('M17::OFF', 'AD1-C::START', 'AD1-B::START')
+353. ('M17::OFF', 'AD1-C::START', 'AD1-B::UP')
+354. ('M17::OFF', 'AD1-C::START', 'AD1-C::UP')
+355. ('M17::OFF', 'AD1-C::UP', 'AD1-B::DOWN')
+356. ('M17::OFF', 'AD1-C::UP', 'AD1-B::START')
+357. ('M17::OFF', 'AD1-C::UP', 'AD1-C::DOWN')
+358. ('M17::OFF', 'AD1-C::UP', 'AD1-C::UP')
+359. ('M17::OFF', 'AD1-C::UP', 'M17::ON')
+360. ('M17::OFF', 'D01::CLOSE', 'M17::ON')
+361. ('M17::OFF', 'D01::OPEN', 'I06::ABSENT')
+362. ('M17::OFF', 'I01::PRESENT', 'M17::ON')
+363. ('M17::OFF', 'I02::PRESENT', 'D01::CLOSE')
+364. ('M17::OFF', 'I02::PRESENT', 'I01::PRESENT')
+365. ('M17::OFF', 'I03::PRESENT', 'I01::ABSENT')
+366. ('M17::OFF', 'I03::PRESENT', 'M17::ON')
+367. ('M17::OFF', 'I04::PRESENT', 'I04::ABSENT')
+368. ('M17::OFF', 'I04::PRESENT', 'I05::PRESENT')
+369. ('M17::OFF', 'I04::PRESENT', 'M17::ON')
+370. ('M17::OFF', 'I05::PRESENT', 'I02::PRESENT')
+371. ('M17::OFF', 'I06::PRESENT', 'I04::PRESENT')
+372. ('M17::OFF', 'M13::ON', 'M16::OFF')
+373. ('M17::OFF', 'M14::OFF', 'M17::ON')
+374. ('M17::OFF', 'M16::OFF', 'M15::OFF')
+375. ('M17::OFF', 'M16::ON', 'M15::ON')
+376. ('M17::OFF', 'M17::ON', 'AD1-B::DOWN')
+377. ('M17::OFF', 'M17::ON', 'AD1-C::DOWN')
+378. ('M17::OFF', 'M17::ON', 'AD1-C::START')
+379. ('M17::OFF', 'M17::ON', 'AD1-C::UP')
+380. ('M17::OFF', 'M17::ON', 'D01::CLOSE')
+381. ('M17::OFF', 'M17::ON', 'D01::OPEN')
+382. ('M17::OFF', 'M17::ON', 'I01::PRESENT')
+383. ('M17::OFF', 'M17::ON', 'I02::PRESENT')
+384. ('M17::OFF', 'M17::ON', 'I05::PRESENT')
+385. ('M17::OFF', 'M17::ON', 'I06::PRESENT')
+386. ('M17::OFF', 'M17::ON', 'M17::OFF')
+387. ('M17::OFF', 'M17::ON', 'M17::ON')
+388. ('M17::OFF', 'M17::ON', 'M18::OFF')
+389. ('M17::OFF', 'M17::ON', 'M18::ON')
+390. ('M17::OFF', 'M18::OFF', 'AD1-B::START')
+391. ('M17::OFF', 'M18::OFF', 'AD1-B::UP')
+392. ('M17::OFF', 'M18::OFF', 'M13::ON')
+393. ('M17::OFF', 'M18::OFF', 'M17::ON')
+394. ('M17::OFF', 'M18::OFF', 'M18::ON')
+395. ('M17::OFF', 'M18::ON', 'M17::ON')
+396. ('M17::ON', 'AD1-B::DOWN', 'AD1-B::DOWN')
+397. ('M17::ON', 'AD1-B::DOWN', 'AD1-B::UP')
+398. ('M17::ON', 'AD1-B::DOWN', 'D01::CLOSE')
+399. ('M17::ON', 'AD1-B::DOWN', 'D01::OPEN')
+400. ('M17::ON', 'AD1-B::DOWN', 'M17::OFF')
+401. ('M17::ON', 'AD1-B::DOWN', 'M18::ON')
+402. ('M17::ON', 'AD1-B::START', 'M17::OFF')
+403. ('M17::ON', 'AD1-B::UP', 'D01::OPEN')
+404. ('M17::ON', 'AD1-B::UP', 'M17::OFF')
+405. ('M17::ON', 'AD1-C::DOWN', 'AD1-B::DOWN')
+406. ('M17::ON', 'AD1-C::DOWN', 'M17::OFF')
+407. ('M17::ON', 'AD1-C::DOWN', 'M18::ON')
+408. ('M17::ON', 'AD1-C::START', 'M17::OFF')
+409. ('M17::ON', 'AD1-C::UP', 'AD1-C::DOWN')
+410. ('M17::ON', 'AD1-C::UP', 'M17::OFF')
+411. ('M17::ON', 'D01::CLOSE', 'AD1-B::START')
+412. ('M17::ON', 'D01::CLOSE', 'M17::OFF')
+413. ('M17::ON', 'D01::CLOSE', 'M17::ON')
+414. ('M17::ON', 'D01::CLOSE', 'M18::ON')
+415. ('M17::ON', 'D01::OPEN', 'I06::ABSENT')
+416. ('M17::ON', 'D01::OPEN', 'I06::PRESENT')
+417. ('M17::ON', 'D01::OPEN', 'M17::OFF')
+418. ('M17::ON', 'D01::OPEN', 'M18::OFF')
+419. ('M17::ON', 'I01::PRESENT', 'M17::OFF')
+420. ('M17::ON', 'I02::PRESENT', 'D01::CLOSE')
+421. ('M17::ON', 'I03::ABSENT', 'I02::PRESENT')
+422. ('M17::ON', 'I04::PRESENT', 'I01::PRESENT')
+423. ('M17::ON', 'I05::PRESENT', 'M17::OFF')
+424. ('M17::ON', 'I06::PRESENT', 'D01::CLOSE')
+425. ('M17::ON', 'I06::PRESENT', 'M17::OFF')
+426. ('M17::ON', 'M13::OFF', 'M14::OFF')
+427. ('M17::ON', 'M13::OFF', 'M15::OFF')
+428. ('M17::ON', 'M14::OFF', 'M15::OFF')
+429. ('M17::ON', 'M14::OFF', 'M16::OFF')
+430. ('M17::ON', 'M15::OFF', 'M14::OFF')
+431. ('M17::ON', 'M15::OFF', 'M16::OFF')
+432. ('M17::ON', 'M16::OFF', 'M14::OFF')
+433. ('M17::ON', 'M17::OFF', 'AD1-B::DOWN')
+434. ('M17::ON', 'M17::OFF', 'AD1-B::START')
+435. ('M17::ON', 'M17::OFF', 'AD1-B::UP')
+436. ('M17::ON', 'M17::OFF', 'AD1-C::DOWN')
+437. ('M17::ON', 'M17::OFF', 'AD1-C::START')
+438. ('M17::ON', 'M17::OFF', 'AD1-C::UP')
+439. ('M17::ON', 'M17::OFF', 'I03::PRESENT')
+440. ('M17::ON', 'M17::OFF', 'I04::PRESENT')
+441. ('M17::ON', 'M17::OFF', 'I06::PRESENT')
+442. ('M17::ON', 'M17::OFF', 'M17::ON')
+443. ('M17::ON', 'M17::OFF', 'M18::OFF')
+444. ('M17::ON', 'M17::OFF', 'M18::ON')
+445. ('M17::ON', 'M17::ON', 'M15::OFF')
+446. ('M17::ON', 'M17::ON', 'M17::OFF')
+447. ('M17::ON', 'M17::ON', 'M18::ON')
+448. ('M17::ON', 'M18::OFF', 'AD1-B::DOWN')
+449. ('M17::ON', 'M18::OFF', 'I06::PRESENT')
+450. ('M17::ON', 'M18::OFF', 'M17::OFF')
+451. ('M17::ON', 'M18::OFF', 'M18::ON')
+452. ('M17::ON', 'M18::ON', 'AD1-B::DOWN')
+453. ('M17::ON', 'M18::ON', 'D01::CLOSE')
+454. ('M17::ON', 'M18::ON', 'D01::OPEN')
+455. ('M17::ON', 'M18::ON', 'M15::ON')
+456. ('M17::ON', 'M18::ON', 'M17::OFF')
+457. ('M17::ON', 'M18::ON', 'M17::ON')
+458. ('M17::ON', 'M18::ON', 'M18::OFF')
+459. ('M18::OFF', 'AD1-B::DOWN', 'AD1-B::DOWN')
+460. ('M18::OFF', 'AD1-B::DOWN', 'AD1-B::UP')
+461. ('M18::OFF', 'AD1-B::DOWN', 'M18::ON')
+462. ('M18::OFF', 'AD1-B::START', 'AD1-B::UP')
+463. ('M18::OFF', 'AD1-B::UP', 'AD1-B::DOWN')
+464. ('M18::OFF', 'AD1-B::UP', 'AD1-B::UP')
+465. ('M18::OFF', 'AD1-B::UP', 'AD1-C::UP')
+466. ('M18::OFF', 'AD1-B::UP', 'M17::ON')
+467. ('M18::OFF', 'AD1-C::DOWN', 'AD1-B::DOWN')
+468. ('M18::OFF', 'AD1-C::DOWN', 'M17::OFF')
+469. ('M18::OFF', 'AD1-C::UP', 'AD1-C::DOWN')
+470. ('M18::OFF', 'D01::OPEN', 'I05::PRESENT')
+471. ('M18::OFF', 'I04::PRESENT', 'M17::OFF')
+472. ('M18::OFF', 'I06::PRESENT', 'M17::OFF')
+473. ('M18::OFF', 'I06::PRESENT', 'M18::ON')
+474. ('M18::OFF', 'M13::ON', 'M16::OFF')
+475. ('M18::OFF', 'M17::OFF', 'AD1-B::DOWN')
+476. ('M18::OFF', 'M17::OFF', 'AD1-B::START')
+477. ('M18::OFF', 'M17::OFF', 'AD1-B::UP')
+478. ('M18::OFF', 'M17::OFF', 'AD1-C::START')
+479. ('M18::OFF', 'M17::OFF', 'D01::OPEN')
+480. ('M18::OFF', 'M17::OFF', 'I01::PRESENT')
+481. ('M18::OFF', 'M17::OFF', 'I02::PRESENT')
+482. ('M18::OFF', 'M17::OFF', 'M17::ON')
+483. ('M18::OFF', 'M17::ON', 'AD1-B::START')
+484. ('M18::OFF', 'M17::ON', 'AD1-B::UP')
+485. ('M18::OFF', 'M17::ON', 'AD1-C::DOWN')
+486. ('M18::OFF', 'M17::ON', 'M17::OFF')
+487. ('M18::OFF', 'M17::ON', 'M18::ON')
+488. ('M18::OFF', 'M18::OFF', 'AD1-B::DOWN')
+489. ('M18::OFF', 'M18::ON', 'AD1-B::DOWN')
+490. ('M18::OFF', 'M18::ON', 'M17::OFF')
+491. ('M18::OFF', 'M18::ON', 'M17::ON')
+492. ('M18::OFF', 'M18::ON', 'M18::OFF')
+493. ('M18::ON', 'AD1-B::DOWN', 'AD1-C::UP')
+494. ('M18::ON', 'AD1-B::DOWN', 'M18::OFF')
+495. ('M18::ON', 'AD1-B::DOWN', 'M18::ON')
+496. ('M18::ON', 'AD1-B::UP', 'AD1-C::UP')
+497. ('M18::ON', 'AD1-B::UP', 'M18::OFF')
+498. ('M18::ON', 'AD1-C::UP', 'M18::OFF')
+499. ('M18::ON', 'D01::CLOSE', 'AD1-B::START')
+500. ('M18::ON', 'D01::CLOSE', 'M18::OFF')
+501. ('M18::ON', 'D01::OPEN', 'M18::OFF')
+502. ('M18::ON', 'M15::ON', 'M16::ON')
+503. ('M18::ON', 'M17::OFF', 'AD1-B::DOWN')
+504. ('M18::ON', 'M17::OFF', 'AD1-B::UP')
+505. ('M18::ON', 'M17::OFF', 'M17::ON')
+506. ('M18::ON', 'M17::OFF', 'M18::OFF')
+507. ('M18::ON', 'M17::ON', 'M17::OFF')
+508. ('M18::ON', 'M17::ON', 'M18::OFF')
+509. ('M18::ON', 'M18::OFF', 'AD1-B::DOWN')
+510. ('M18::ON', 'M18::OFF', 'AD1-B::UP')
+511. ('M18::ON', 'M18::OFF', 'AD1-C::DOWN')
+512. ('M18::ON', 'M18::OFF', 'AD1-C::UP')
+513. ('M18::ON', 'M18::OFF', 'D01::OPEN')
+514. ('M18::ON', 'M18::OFF', 'M17::OFF')
+515. ('M18::ON', 'M18::OFF', 'M17::ON')
+516. ('M18::ON', 'M18::OFF', 'M18::OFF')
+517. ('M18::ON', 'M18::OFF', 'M18::ON')
+518. ('M18::ON', 'M18::ON', 'M17::ON')
+519. ('M18::ON', 'M18::ON', 'M18::OFF')
+
+
+====================================================================================================
+VALIDATION SESSION DETAILS
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+filename        : p01.t5.csv
+participant_id  : p01
+dataset         : normal
+activity_code   : t5
+activity_index  : 4
+n_session_trigrams        : 55
+n_missing_trigrams        : 7
+n_unique_session_trigrams : 51
+n_unique_missing_trigrams : 7
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M14::ON
+002. M13::OFF
+003. M14::ON
+004. M13::ON
+005. M14::OFF
+006. M13::OFF
+007. M14::ON
+008. M13::ON
+009. M13::OFF
+010. M15::ON
+011. M16::ON
+012. M17::ON
+013. M15::OFF
+014. M14::OFF
+015. M16::OFF
+016. M17::OFF
+017. M17::ON
+018. M17::OFF
+019. M17::ON
+020. D01::OPEN
+021. M17::OFF
+022. I04::PRESENT
+023. I03::PRESENT
+024. I06::PRESENT
+025. M17::ON
+026. D01::CLOSE
+027. M18::ON
+028. M17::OFF
+029. M18::OFF
+030. M18::ON
+031. M17::ON
+032. M18::OFF
+033. M17::OFF
+034. AD1-B::START
+035. AD1-B::UP
+036. AD1-B::UP
+037. AD1-B::DOWN
+038. AD1-B::DOWN
+039. AD1-B::UP
+040. M18::ON
+041. M18::OFF
+042. M17::ON
+043. M18::ON
+044. M17::OFF
+045. M18::OFF
+046. M18::ON
+047. M17::ON
+048. M18::ON
+049. AD1-B::DOWN
+050. M18::OFF
+051. M17::OFF
+052. AD1-B::UP
+053. M17::ON
+054. AD1-B::UP
+055. AD1-B::DOWN
+056. M18::ON
+057. M18::OFF
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M14::ON', 'M13::OFF', 'M14::ON')    [SEEN]
+002. ('M13::OFF', 'M14::ON', 'M13::ON')    [SEEN]
+003. ('M14::ON', 'M13::ON', 'M14::OFF')    [SEEN]
+004. ('M13::ON', 'M14::OFF', 'M13::OFF')    [SEEN]
+005. ('M14::OFF', 'M13::OFF', 'M14::ON')    [SEEN]
+006. ('M13::OFF', 'M14::ON', 'M13::ON')    [SEEN]
+007. ('M14::ON', 'M13::ON', 'M13::OFF')    [SEEN]
+008. ('M13::ON', 'M13::OFF', 'M15::ON')    [SEEN]
+009. ('M13::OFF', 'M15::ON', 'M16::ON')    [SEEN]
+010. ('M15::ON', 'M16::ON', 'M17::ON')    [SEEN]
+011. ('M16::ON', 'M17::ON', 'M15::OFF')    [SEEN]
+012. ('M17::ON', 'M15::OFF', 'M14::OFF')    [SEEN]
+013. ('M15::OFF', 'M14::OFF', 'M16::OFF')    [SEEN]
+014. ('M14::OFF', 'M16::OFF', 'M17::OFF')    [SEEN]
+015. ('M16::OFF', 'M17::OFF', 'M17::ON')    [SEEN]
+016. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+017. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+018. ('M17::OFF', 'M17::ON', 'D01::OPEN')    [SEEN]
+019. ('M17::ON', 'D01::OPEN', 'M17::OFF')    [SEEN]
+020. ('D01::OPEN', 'M17::OFF', 'I04::PRESENT')    [MISSING]
+021. ('M17::OFF', 'I04::PRESENT', 'I03::PRESENT')    [MISSING]
+022. ('I04::PRESENT', 'I03::PRESENT', 'I06::PRESENT')    [MISSING]
+023. ('I03::PRESENT', 'I06::PRESENT', 'M17::ON')    [MISSING]
+024. ('I06::PRESENT', 'M17::ON', 'D01::CLOSE')    [MISSING]
+025. ('M17::ON', 'D01::CLOSE', 'M18::ON')    [SEEN]
+026. ('D01::CLOSE', 'M18::ON', 'M17::OFF')    [SEEN]
+027. ('M18::ON', 'M17::OFF', 'M18::OFF')    [SEEN]
+028. ('M17::OFF', 'M18::OFF', 'M18::ON')    [SEEN]
+029. ('M18::OFF', 'M18::ON', 'M17::ON')    [SEEN]
+030. ('M18::ON', 'M17::ON', 'M18::OFF')    [SEEN]
+031. ('M17::ON', 'M18::OFF', 'M17::OFF')    [SEEN]
+032. ('M18::OFF', 'M17::OFF', 'AD1-B::START')    [SEEN]
+033. ('M17::OFF', 'AD1-B::START', 'AD1-B::UP')    [SEEN]
+034. ('AD1-B::START', 'AD1-B::UP', 'AD1-B::UP')    [SEEN]
+035. ('AD1-B::UP', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+036. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::DOWN')    [SEEN]
+037. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+038. ('AD1-B::DOWN', 'AD1-B::UP', 'M18::ON')    [SEEN]
+039. ('AD1-B::UP', 'M18::ON', 'M18::OFF')    [SEEN]
+040. ('M18::ON', 'M18::OFF', 'M17::ON')    [SEEN]
+041. ('M18::OFF', 'M17::ON', 'M18::ON')    [SEEN]
+042. ('M17::ON', 'M18::ON', 'M17::OFF')    [SEEN]
+043. ('M18::ON', 'M17::OFF', 'M18::OFF')    [SEEN]
+044. ('M17::OFF', 'M18::OFF', 'M18::ON')    [SEEN]
+045. ('M18::OFF', 'M18::ON', 'M17::ON')    [SEEN]
+046. ('M18::ON', 'M17::ON', 'M18::ON')    [MISSING]
+047. ('M17::ON', 'M18::ON', 'AD1-B::DOWN')    [SEEN]
+048. ('M18::ON', 'AD1-B::DOWN', 'M18::OFF')    [SEEN]
+049. ('AD1-B::DOWN', 'M18::OFF', 'M17::OFF')    [SEEN]
+050. ('M18::OFF', 'M17::OFF', 'AD1-B::UP')    [SEEN]
+051. ('M17::OFF', 'AD1-B::UP', 'M17::ON')    [SEEN]
+052. ('AD1-B::UP', 'M17::ON', 'AD1-B::UP')    [SEEN]
+053. ('M17::ON', 'AD1-B::UP', 'AD1-B::DOWN')    [MISSING]
+054. ('AD1-B::UP', 'AD1-B::DOWN', 'M18::ON')    [SEEN]
+055. ('AD1-B::DOWN', 'M18::ON', 'M18::OFF')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('D01::OPEN', 'M17::OFF', 'I04::PRESENT')
+002. ('M17::OFF', 'I04::PRESENT', 'I03::PRESENT')
+003. ('I04::PRESENT', 'I03::PRESENT', 'I06::PRESENT')
+004. ('I03::PRESENT', 'I06::PRESENT', 'M17::ON')
+005. ('I06::PRESENT', 'M17::ON', 'D01::CLOSE')
+006. ('M18::ON', 'M17::ON', 'M18::ON')
+007. ('M17::ON', 'AD1-B::UP', 'AD1-B::DOWN')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('D01::OPEN', 'M17::OFF', 'I04::PRESENT')
+002. ('I03::PRESENT', 'I06::PRESENT', 'M17::ON')
+003. ('I04::PRESENT', 'I03::PRESENT', 'I06::PRESENT')
+004. ('I06::PRESENT', 'M17::ON', 'D01::CLOSE')
+005. ('M17::OFF', 'I04::PRESENT', 'I03::PRESENT')
+006. ('M17::ON', 'AD1-B::UP', 'AD1-B::DOWN')
+007. ('M18::ON', 'M17::ON', 'M18::ON')
+
+----------------------------------------------------------------------------------------------------
+filename        : p03.t5.csv
+participant_id  : p03
+dataset         : normal
+activity_code   : t5
+activity_index  : 4
+n_session_trigrams        : 50
+n_missing_trigrams        : 9
+n_unique_session_trigrams : 41
+n_unique_missing_trigrams : 9
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M14::ON
+002. M15::ON
+003. M16::ON
+004. M13::OFF
+005. M17::ON
+006. M14::OFF
+007. M14::ON
+008. M17::OFF
+009. M17::ON
+010. M15::OFF
+011. M14::OFF
+012. M16::OFF
+013. D01::OPEN
+014. I06::PRESENT
+015. I03::PRESENT
+016. M17::OFF
+017. I01::PRESENT
+018. D01::CLOSE
+019. M17::ON
+020. M17::OFF
+021. AD1-B::START
+022. AD1-B::UP
+023. AD1-B::DOWN
+024. AD1-B::UP
+025. AD1-B::DOWN
+026. AD1-B::UP
+027. M17::ON
+028. M17::OFF
+029. M17::ON
+030. M17::OFF
+031. M17::ON
+032. M17::OFF
+033. AD1-B::UP
+034. M17::ON
+035. M17::OFF
+036. M17::ON
+037. M17::OFF
+038. M18::ON
+039. M17::ON
+040. M18::OFF
+041. M17::OFF
+042. AD1-B::DOWN
+043. M17::ON
+044. M17::OFF
+045. M17::ON
+046. M18::ON
+047. M17::OFF
+048. M17::ON
+049. M18::OFF
+050. M17::OFF
+051. M17::ON
+052. M18::ON
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M14::ON', 'M15::ON', 'M16::ON')    [SEEN]
+002. ('M15::ON', 'M16::ON', 'M13::OFF')    [SEEN]
+003. ('M16::ON', 'M13::OFF', 'M17::ON')    [SEEN]
+004. ('M13::OFF', 'M17::ON', 'M14::OFF')    [SEEN]
+005. ('M17::ON', 'M14::OFF', 'M14::ON')    [MISSING]
+006. ('M14::OFF', 'M14::ON', 'M17::OFF')    [MISSING]
+007. ('M14::ON', 'M17::OFF', 'M17::ON')    [MISSING]
+008. ('M17::OFF', 'M17::ON', 'M15::OFF')    [MISSING]
+009. ('M17::ON', 'M15::OFF', 'M14::OFF')    [SEEN]
+010. ('M15::OFF', 'M14::OFF', 'M16::OFF')    [SEEN]
+011. ('M14::OFF', 'M16::OFF', 'D01::OPEN')    [SEEN]
+012. ('M16::OFF', 'D01::OPEN', 'I06::PRESENT')    [SEEN]
+013. ('D01::OPEN', 'I06::PRESENT', 'I03::PRESENT')    [MISSING]
+014. ('I06::PRESENT', 'I03::PRESENT', 'M17::OFF')    [MISSING]
+015. ('I03::PRESENT', 'M17::OFF', 'I01::PRESENT')    [MISSING]
+016. ('M17::OFF', 'I01::PRESENT', 'D01::CLOSE')    [MISSING]
+017. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')    [MISSING]
+018. ('D01::CLOSE', 'M17::ON', 'M17::OFF')    [SEEN]
+019. ('M17::ON', 'M17::OFF', 'AD1-B::START')    [SEEN]
+020. ('M17::OFF', 'AD1-B::START', 'AD1-B::UP')    [SEEN]
+021. ('AD1-B::START', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+022. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+023. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+024. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+025. ('AD1-B::DOWN', 'AD1-B::UP', 'M17::ON')    [SEEN]
+026. ('AD1-B::UP', 'M17::ON', 'M17::OFF')    [SEEN]
+027. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+028. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+029. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+030. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+031. ('M17::ON', 'M17::OFF', 'AD1-B::UP')    [SEEN]
+032. ('M17::OFF', 'AD1-B::UP', 'M17::ON')    [SEEN]
+033. ('AD1-B::UP', 'M17::ON', 'M17::OFF')    [SEEN]
+034. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+035. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+036. ('M17::ON', 'M17::OFF', 'M18::ON')    [SEEN]
+037. ('M17::OFF', 'M18::ON', 'M17::ON')    [SEEN]
+038. ('M18::ON', 'M17::ON', 'M18::OFF')    [SEEN]
+039. ('M17::ON', 'M18::OFF', 'M17::OFF')    [SEEN]
+040. ('M18::OFF', 'M17::OFF', 'AD1-B::DOWN')    [SEEN]
+041. ('M17::OFF', 'AD1-B::DOWN', 'M17::ON')    [SEEN]
+042. ('AD1-B::DOWN', 'M17::ON', 'M17::OFF')    [SEEN]
+043. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+044. ('M17::OFF', 'M17::ON', 'M18::ON')    [SEEN]
+045. ('M17::ON', 'M18::ON', 'M17::OFF')    [SEEN]
+046. ('M18::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+047. ('M17::OFF', 'M17::ON', 'M18::OFF')    [SEEN]
+048. ('M17::ON', 'M18::OFF', 'M17::OFF')    [SEEN]
+049. ('M18::OFF', 'M17::OFF', 'M17::ON')    [SEEN]
+050. ('M17::OFF', 'M17::ON', 'M18::ON')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M17::ON', 'M14::OFF', 'M14::ON')
+002. ('M14::OFF', 'M14::ON', 'M17::OFF')
+003. ('M14::ON', 'M17::OFF', 'M17::ON')
+004. ('M17::OFF', 'M17::ON', 'M15::OFF')
+005. ('D01::OPEN', 'I06::PRESENT', 'I03::PRESENT')
+006. ('I06::PRESENT', 'I03::PRESENT', 'M17::OFF')
+007. ('I03::PRESENT', 'M17::OFF', 'I01::PRESENT')
+008. ('M17::OFF', 'I01::PRESENT', 'D01::CLOSE')
+009. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('D01::OPEN', 'I06::PRESENT', 'I03::PRESENT')
+002. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')
+003. ('I03::PRESENT', 'M17::OFF', 'I01::PRESENT')
+004. ('I06::PRESENT', 'I03::PRESENT', 'M17::OFF')
+005. ('M14::OFF', 'M14::ON', 'M17::OFF')
+006. ('M14::ON', 'M17::OFF', 'M17::ON')
+007. ('M17::OFF', 'I01::PRESENT', 'D01::CLOSE')
+008. ('M17::OFF', 'M17::ON', 'M15::OFF')
+009. ('M17::ON', 'M14::OFF', 'M14::ON')
+
+----------------------------------------------------------------------------------------------------
+filename        : p08.t5.csv
+participant_id  : p08
+dataset         : normal
+activity_code   : t5
+activity_index  : 4
+n_session_trigrams        : 52
+n_missing_trigrams        : 8
+n_unique_session_trigrams : 48
+n_unique_missing_trigrams : 8
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M14::ON
+002. M13::ON
+003. M13::OFF
+004. M13::ON
+005. M13::OFF
+006. M14::ON
+007. M14::OFF
+008. M13::ON
+009. M15::ON
+010. M16::ON
+011. M13::OFF
+012. M17::ON
+013. M15::OFF
+014. M16::OFF
+015. M14::OFF
+016. M17::OFF
+017. M17::ON
+018. D01::OPEN
+019. M17::OFF
+020. M17::ON
+021. I06::PRESENT
+022. D01::CLOSE
+023. M18::ON
+024. M18::OFF
+025. M17::OFF
+026. M17::ON
+027. M17::OFF
+028. AD1-B::START
+029. AD1-B::UP
+030. AD1-B::DOWN
+031. M17::ON
+032. M17::OFF
+033. AD1-B::UP
+034. AD1-B::DOWN
+035. AD1-B::DOWN
+036. AD1-B::UP
+037. M17::ON
+038. M17::OFF
+039. AD1-B::DOWN
+040. M17::ON
+041. M17::OFF
+042. AD1-B::DOWN
+043. AD1-B::UP
+044. AD1-B::UP
+045. AD1-B::DOWN
+046. AD1-B::DOWN
+047. AD1-B::UP
+048. M18::ON
+049. M18::OFF
+050. AD1-B::DOWN
+051. M18::ON
+052. M17::ON
+053. M18::OFF
+054. M18::ON
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M14::ON', 'M13::ON', 'M13::OFF')    [SEEN]
+002. ('M13::ON', 'M13::OFF', 'M13::ON')    [SEEN]
+003. ('M13::OFF', 'M13::ON', 'M13::OFF')    [SEEN]
+004. ('M13::ON', 'M13::OFF', 'M14::ON')    [SEEN]
+005. ('M13::OFF', 'M14::ON', 'M14::OFF')    [SEEN]
+006. ('M14::ON', 'M14::OFF', 'M13::ON')    [MISSING]
+007. ('M14::OFF', 'M13::ON', 'M15::ON')    [MISSING]
+008. ('M13::ON', 'M15::ON', 'M16::ON')    [SEEN]
+009. ('M15::ON', 'M16::ON', 'M13::OFF')    [SEEN]
+010. ('M16::ON', 'M13::OFF', 'M17::ON')    [SEEN]
+011. ('M13::OFF', 'M17::ON', 'M15::OFF')    [SEEN]
+012. ('M17::ON', 'M15::OFF', 'M16::OFF')    [SEEN]
+013. ('M15::OFF', 'M16::OFF', 'M14::OFF')    [MISSING]
+014. ('M16::OFF', 'M14::OFF', 'M17::OFF')    [MISSING]
+015. ('M14::OFF', 'M17::OFF', 'M17::ON')    [MISSING]
+016. ('M17::OFF', 'M17::ON', 'D01::OPEN')    [SEEN]
+017. ('M17::ON', 'D01::OPEN', 'M17::OFF')    [SEEN]
+018. ('D01::OPEN', 'M17::OFF', 'M17::ON')    [SEEN]
+019. ('M17::OFF', 'M17::ON', 'I06::PRESENT')    [SEEN]
+020. ('M17::ON', 'I06::PRESENT', 'D01::CLOSE')    [SEEN]
+021. ('I06::PRESENT', 'D01::CLOSE', 'M18::ON')    [MISSING]
+022. ('D01::CLOSE', 'M18::ON', 'M18::OFF')    [MISSING]
+023. ('M18::ON', 'M18::OFF', 'M17::OFF')    [SEEN]
+024. ('M18::OFF', 'M17::OFF', 'M17::ON')    [SEEN]
+025. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+026. ('M17::ON', 'M17::OFF', 'AD1-B::START')    [SEEN]
+027. ('M17::OFF', 'AD1-B::START', 'AD1-B::UP')    [SEEN]
+028. ('AD1-B::START', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+029. ('AD1-B::UP', 'AD1-B::DOWN', 'M17::ON')    [SEEN]
+030. ('AD1-B::DOWN', 'M17::ON', 'M17::OFF')    [SEEN]
+031. ('M17::ON', 'M17::OFF', 'AD1-B::UP')    [SEEN]
+032. ('M17::OFF', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+033. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::DOWN')    [SEEN]
+034. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+035. ('AD1-B::DOWN', 'AD1-B::UP', 'M17::ON')    [SEEN]
+036. ('AD1-B::UP', 'M17::ON', 'M17::OFF')    [SEEN]
+037. ('M17::ON', 'M17::OFF', 'AD1-B::DOWN')    [SEEN]
+038. ('M17::OFF', 'AD1-B::DOWN', 'M17::ON')    [SEEN]
+039. ('AD1-B::DOWN', 'M17::ON', 'M17::OFF')    [SEEN]
+040. ('M17::ON', 'M17::OFF', 'AD1-B::DOWN')    [SEEN]
+041. ('M17::OFF', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+042. ('AD1-B::DOWN', 'AD1-B::UP', 'AD1-B::UP')    [SEEN]
+043. ('AD1-B::UP', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+044. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::DOWN')    [SEEN]
+045. ('AD1-B::DOWN', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+046. ('AD1-B::DOWN', 'AD1-B::UP', 'M18::ON')    [SEEN]
+047. ('AD1-B::UP', 'M18::ON', 'M18::OFF')    [SEEN]
+048. ('M18::ON', 'M18::OFF', 'AD1-B::DOWN')    [SEEN]
+049. ('M18::OFF', 'AD1-B::DOWN', 'M18::ON')    [SEEN]
+050. ('AD1-B::DOWN', 'M18::ON', 'M17::ON')    [MISSING]
+051. ('M18::ON', 'M17::ON', 'M18::OFF')    [SEEN]
+052. ('M17::ON', 'M18::OFF', 'M18::ON')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M14::ON', 'M14::OFF', 'M13::ON')
+002. ('M14::OFF', 'M13::ON', 'M15::ON')
+003. ('M15::OFF', 'M16::OFF', 'M14::OFF')
+004. ('M16::OFF', 'M14::OFF', 'M17::OFF')
+005. ('M14::OFF', 'M17::OFF', 'M17::ON')
+006. ('I06::PRESENT', 'D01::CLOSE', 'M18::ON')
+007. ('D01::CLOSE', 'M18::ON', 'M18::OFF')
+008. ('AD1-B::DOWN', 'M18::ON', 'M17::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('AD1-B::DOWN', 'M18::ON', 'M17::ON')
+002. ('D01::CLOSE', 'M18::ON', 'M18::OFF')
+003. ('I06::PRESENT', 'D01::CLOSE', 'M18::ON')
+004. ('M14::OFF', 'M13::ON', 'M15::ON')
+005. ('M14::OFF', 'M17::OFF', 'M17::ON')
+006. ('M14::ON', 'M14::OFF', 'M13::ON')
+007. ('M15::OFF', 'M16::OFF', 'M14::OFF')
+008. ('M16::OFF', 'M14::OFF', 'M17::OFF')
+
+----------------------------------------------------------------------------------------------------
+filename        : p13.t5.csv
+participant_id  : p13
+dataset         : normal
+activity_code   : t5
+activity_index  : 4
+n_session_trigrams        : 48
+n_missing_trigrams        : 18
+n_unique_session_trigrams : 46
+n_unique_missing_trigrams : 18
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M13::ON
+002. M13::OFF
+003. M15::ON
+004. M16::ON
+005. M17::ON
+006. M16::OFF
+007. M15::OFF
+008. M14::OFF
+009. M18::ON
+010. M17::OFF
+011. M18::OFF
+012. M18::ON
+013. M17::ON
+014. AD1-B::START
+015. M18::OFF
+016. M17::OFF
+017. AD1-B::UP
+018. AD1-B::UP
+019. AD1-B::DOWN
+020. AD1-B::UP
+021. M18::ON
+022. AD1-B::UP
+023. M18::OFF
+024. M17::ON
+025. M17::OFF
+026. AD1-C::START
+027. AD1-B::DOWN
+028. AD1-C::UP
+029. AD1-C::DOWN
+030. AD1-C::UP
+031. AD1-C::DOWN
+032. AD1-C::UP
+033. M17::ON
+034. AD1-B::UP
+035. AD1-C::DOWN
+036. M17::OFF
+037. AD1-B::DOWN
+038. AD1-B::UP
+039. M17::ON
+040. M17::OFF
+041. M17::ON
+042. M18::ON
+043. D01::OPEN
+044. I06::PRESENT
+045. M18::OFF
+046. I01::PRESENT
+047. D01::CLOSE
+048. M17::ON
+049. M17::OFF
+050. M17::ON
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M13::ON', 'M13::OFF', 'M15::ON')    [SEEN]
+002. ('M13::OFF', 'M15::ON', 'M16::ON')    [SEEN]
+003. ('M15::ON', 'M16::ON', 'M17::ON')    [SEEN]
+004. ('M16::ON', 'M17::ON', 'M16::OFF')    [SEEN]
+005. ('M17::ON', 'M16::OFF', 'M15::OFF')    [MISSING]
+006. ('M16::OFF', 'M15::OFF', 'M14::OFF')    [SEEN]
+007. ('M15::OFF', 'M14::OFF', 'M18::ON')    [MISSING]
+008. ('M14::OFF', 'M18::ON', 'M17::OFF')    [MISSING]
+009. ('M18::ON', 'M17::OFF', 'M18::OFF')    [SEEN]
+010. ('M17::OFF', 'M18::OFF', 'M18::ON')    [SEEN]
+011. ('M18::OFF', 'M18::ON', 'M17::ON')    [SEEN]
+012. ('M18::ON', 'M17::ON', 'AD1-B::START')    [MISSING]
+013. ('M17::ON', 'AD1-B::START', 'M18::OFF')    [MISSING]
+014. ('AD1-B::START', 'M18::OFF', 'M17::OFF')    [MISSING]
+015. ('M18::OFF', 'M17::OFF', 'AD1-B::UP')    [SEEN]
+016. ('M17::OFF', 'AD1-B::UP', 'AD1-B::UP')    [SEEN]
+017. ('AD1-B::UP', 'AD1-B::UP', 'AD1-B::DOWN')    [SEEN]
+018. ('AD1-B::UP', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+019. ('AD1-B::DOWN', 'AD1-B::UP', 'M18::ON')    [SEEN]
+020. ('AD1-B::UP', 'M18::ON', 'AD1-B::UP')    [MISSING]
+021. ('M18::ON', 'AD1-B::UP', 'M18::OFF')    [SEEN]
+022. ('AD1-B::UP', 'M18::OFF', 'M17::ON')    [MISSING]
+023. ('M18::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+024. ('M17::ON', 'M17::OFF', 'AD1-C::START')    [SEEN]
+025. ('M17::OFF', 'AD1-C::START', 'AD1-B::DOWN')    [MISSING]
+026. ('AD1-C::START', 'AD1-B::DOWN', 'AD1-C::UP')    [SEEN]
+027. ('AD1-B::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')    [SEEN]
+028. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::UP')    [SEEN]
+029. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')    [SEEN]
+030. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::UP')    [SEEN]
+031. ('AD1-C::DOWN', 'AD1-C::UP', 'M17::ON')    [SEEN]
+032. ('AD1-C::UP', 'M17::ON', 'AD1-B::UP')    [MISSING]
+033. ('M17::ON', 'AD1-B::UP', 'AD1-C::DOWN')    [MISSING]
+034. ('AD1-B::UP', 'AD1-C::DOWN', 'M17::OFF')    [MISSING]
+035. ('AD1-C::DOWN', 'M17::OFF', 'AD1-B::DOWN')    [MISSING]
+036. ('M17::OFF', 'AD1-B::DOWN', 'AD1-B::UP')    [SEEN]
+037. ('AD1-B::DOWN', 'AD1-B::UP', 'M17::ON')    [SEEN]
+038. ('AD1-B::UP', 'M17::ON', 'M17::OFF')    [SEEN]
+039. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+040. ('M17::OFF', 'M17::ON', 'M18::ON')    [SEEN]
+041. ('M17::ON', 'M18::ON', 'D01::OPEN')    [SEEN]
+042. ('M18::ON', 'D01::OPEN', 'I06::PRESENT')    [MISSING]
+043. ('D01::OPEN', 'I06::PRESENT', 'M18::OFF')    [MISSING]
+044. ('I06::PRESENT', 'M18::OFF', 'I01::PRESENT')    [MISSING]
+045. ('M18::OFF', 'I01::PRESENT', 'D01::CLOSE')    [MISSING]
+046. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')    [MISSING]
+047. ('D01::CLOSE', 'M17::ON', 'M17::OFF')    [SEEN]
+048. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M17::ON', 'M16::OFF', 'M15::OFF')
+002. ('M15::OFF', 'M14::OFF', 'M18::ON')
+003. ('M14::OFF', 'M18::ON', 'M17::OFF')
+004. ('M18::ON', 'M17::ON', 'AD1-B::START')
+005. ('M17::ON', 'AD1-B::START', 'M18::OFF')
+006. ('AD1-B::START', 'M18::OFF', 'M17::OFF')
+007. ('AD1-B::UP', 'M18::ON', 'AD1-B::UP')
+008. ('AD1-B::UP', 'M18::OFF', 'M17::ON')
+009. ('M17::OFF', 'AD1-C::START', 'AD1-B::DOWN')
+010. ('AD1-C::UP', 'M17::ON', 'AD1-B::UP')
+011. ('M17::ON', 'AD1-B::UP', 'AD1-C::DOWN')
+012. ('AD1-B::UP', 'AD1-C::DOWN', 'M17::OFF')
+013. ('AD1-C::DOWN', 'M17::OFF', 'AD1-B::DOWN')
+014. ('M18::ON', 'D01::OPEN', 'I06::PRESENT')
+015. ('D01::OPEN', 'I06::PRESENT', 'M18::OFF')
+016. ('I06::PRESENT', 'M18::OFF', 'I01::PRESENT')
+017. ('M18::OFF', 'I01::PRESENT', 'D01::CLOSE')
+018. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('AD1-B::START', 'M18::OFF', 'M17::OFF')
+002. ('AD1-B::UP', 'AD1-C::DOWN', 'M17::OFF')
+003. ('AD1-B::UP', 'M18::OFF', 'M17::ON')
+004. ('AD1-B::UP', 'M18::ON', 'AD1-B::UP')
+005. ('AD1-C::DOWN', 'M17::OFF', 'AD1-B::DOWN')
+006. ('AD1-C::UP', 'M17::ON', 'AD1-B::UP')
+007. ('D01::OPEN', 'I06::PRESENT', 'M18::OFF')
+008. ('I01::PRESENT', 'D01::CLOSE', 'M17::ON')
+009. ('I06::PRESENT', 'M18::OFF', 'I01::PRESENT')
+010. ('M14::OFF', 'M18::ON', 'M17::OFF')
+011. ('M15::OFF', 'M14::OFF', 'M18::ON')
+012. ('M17::OFF', 'AD1-C::START', 'AD1-B::DOWN')
+013. ('M17::ON', 'AD1-B::START', 'M18::OFF')
+014. ('M17::ON', 'AD1-B::UP', 'AD1-C::DOWN')
+015. ('M17::ON', 'M16::OFF', 'M15::OFF')
+016. ('M18::OFF', 'I01::PRESENT', 'D01::CLOSE')
+017. ('M18::ON', 'D01::OPEN', 'I06::PRESENT')
+018. ('M18::ON', 'M17::ON', 'AD1-B::START')
+
+----------------------------------------------------------------------------------------------------
+filename        : p40.t5.csv
+participant_id  : p40
+dataset         : normal
+activity_code   : t5
+activity_index  : 4
+n_session_trigrams        : 44
+n_missing_trigrams        : 12
+n_unique_session_trigrams : 39
+n_unique_missing_trigrams : 12
+
+EVENT TOKENS
+----------------------------------------------------------------------------------------------------
+001. M14::ON
+002. M15::ON
+003. M16::ON
+004. M17::ON
+005. M14::OFF
+006. M13::OFF
+007. M16::ON
+008. M15::OFF
+009. M17::OFF
+010. M16::OFF
+011. M17::ON
+012. D01::OPEN
+013. I06::PRESENT
+014. M17::OFF
+015. D01::CLOSE
+016. M17::ON
+017. M18::ON
+018. M17::OFF
+019. M18::OFF
+020. M18::ON
+021. M17::ON
+022. M18::OFF
+023. AD1-C::START
+024. M17::OFF
+025. AD1-C::UP
+026. M17::ON
+027. M17::OFF
+028. AD1-C::DOWN
+029. AD1-C::UP
+030. AD1-C::DOWN
+031. AD1-C::UP
+032. AD1-C::UP
+033. AD1-C::DOWN
+034. M17::ON
+035. M17::OFF
+036. AD1-C::DOWN
+037. AD1-C::UP
+038. AD1-C::DOWN
+039. AD1-C::DOWN
+040. M17::ON
+041. M18::ON
+042. M17::OFF
+043. M17::ON
+044. M17::OFF
+045. M17::ON
+046. M17::OFF
+
+SESSION TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M14::ON', 'M15::ON', 'M16::ON')    [SEEN]
+002. ('M15::ON', 'M16::ON', 'M17::ON')    [SEEN]
+003. ('M16::ON', 'M17::ON', 'M14::OFF')    [SEEN]
+004. ('M17::ON', 'M14::OFF', 'M13::OFF')    [MISSING]
+005. ('M14::OFF', 'M13::OFF', 'M16::ON')    [MISSING]
+006. ('M13::OFF', 'M16::ON', 'M15::OFF')    [MISSING]
+007. ('M16::ON', 'M15::OFF', 'M17::OFF')    [MISSING]
+008. ('M15::OFF', 'M17::OFF', 'M16::OFF')    [MISSING]
+009. ('M17::OFF', 'M16::OFF', 'M17::ON')    [MISSING]
+010. ('M16::OFF', 'M17::ON', 'D01::OPEN')    [MISSING]
+011. ('M17::ON', 'D01::OPEN', 'I06::PRESENT')    [SEEN]
+012. ('D01::OPEN', 'I06::PRESENT', 'M17::OFF')    [SEEN]
+013. ('I06::PRESENT', 'M17::OFF', 'D01::CLOSE')    [MISSING]
+014. ('M17::OFF', 'D01::CLOSE', 'M17::ON')    [SEEN]
+015. ('D01::CLOSE', 'M17::ON', 'M18::ON')    [SEEN]
+016. ('M17::ON', 'M18::ON', 'M17::OFF')    [SEEN]
+017. ('M18::ON', 'M17::OFF', 'M18::OFF')    [SEEN]
+018. ('M17::OFF', 'M18::OFF', 'M18::ON')    [SEEN]
+019. ('M18::OFF', 'M18::ON', 'M17::ON')    [SEEN]
+020. ('M18::ON', 'M17::ON', 'M18::OFF')    [SEEN]
+021. ('M17::ON', 'M18::OFF', 'AD1-C::START')    [MISSING]
+022. ('M18::OFF', 'AD1-C::START', 'M17::OFF')    [MISSING]
+023. ('AD1-C::START', 'M17::OFF', 'AD1-C::UP')    [SEEN]
+024. ('M17::OFF', 'AD1-C::UP', 'M17::ON')    [SEEN]
+025. ('AD1-C::UP', 'M17::ON', 'M17::OFF')    [SEEN]
+026. ('M17::ON', 'M17::OFF', 'AD1-C::DOWN')    [SEEN]
+027. ('M17::OFF', 'AD1-C::DOWN', 'AD1-C::UP')    [SEEN]
+028. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')    [SEEN]
+029. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::UP')    [SEEN]
+030. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::UP')    [SEEN]
+031. ('AD1-C::UP', 'AD1-C::UP', 'AD1-C::DOWN')    [SEEN]
+032. ('AD1-C::UP', 'AD1-C::DOWN', 'M17::ON')    [SEEN]
+033. ('AD1-C::DOWN', 'M17::ON', 'M17::OFF')    [SEEN]
+034. ('M17::ON', 'M17::OFF', 'AD1-C::DOWN')    [SEEN]
+035. ('M17::OFF', 'AD1-C::DOWN', 'AD1-C::UP')    [SEEN]
+036. ('AD1-C::DOWN', 'AD1-C::UP', 'AD1-C::DOWN')    [SEEN]
+037. ('AD1-C::UP', 'AD1-C::DOWN', 'AD1-C::DOWN')    [SEEN]
+038. ('AD1-C::DOWN', 'AD1-C::DOWN', 'M17::ON')    [MISSING]
+039. ('AD1-C::DOWN', 'M17::ON', 'M18::ON')    [MISSING]
+040. ('M17::ON', 'M18::ON', 'M17::OFF')    [SEEN]
+041. ('M18::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+042. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+043. ('M17::ON', 'M17::OFF', 'M17::ON')    [SEEN]
+044. ('M17::OFF', 'M17::ON', 'M17::OFF')    [SEEN]
+
+MISSING TRIGRAMS IN ORDER
+----------------------------------------------------------------------------------------------------
+001. ('M17::ON', 'M14::OFF', 'M13::OFF')
+002. ('M14::OFF', 'M13::OFF', 'M16::ON')
+003. ('M13::OFF', 'M16::ON', 'M15::OFF')
+004. ('M16::ON', 'M15::OFF', 'M17::OFF')
+005. ('M15::OFF', 'M17::OFF', 'M16::OFF')
+006. ('M17::OFF', 'M16::OFF', 'M17::ON')
+007. ('M16::OFF', 'M17::ON', 'D01::OPEN')
+008. ('I06::PRESENT', 'M17::OFF', 'D01::CLOSE')
+009. ('M17::ON', 'M18::OFF', 'AD1-C::START')
+010. ('M18::OFF', 'AD1-C::START', 'M17::OFF')
+011. ('AD1-C::DOWN', 'AD1-C::DOWN', 'M17::ON')
+012. ('AD1-C::DOWN', 'M17::ON', 'M18::ON')
+
+UNIQUE MISSING TRIGRAMS
+----------------------------------------------------------------------------------------------------
+001. ('AD1-C::DOWN', 'AD1-C::DOWN', 'M17::ON')
+002. ('AD1-C::DOWN', 'M17::ON', 'M18::ON')
+003. ('I06::PRESENT', 'M17::OFF', 'D01::CLOSE')
+004. ('M13::OFF', 'M16::ON', 'M15::OFF')
+005. ('M14::OFF', 'M13::OFF', 'M16::ON')
+006. ('M15::OFF', 'M17::OFF', 'M16::OFF')
+007. ('M16::OFF', 'M17::ON', 'D01::OPEN')
+008. ('M16::ON', 'M15::OFF', 'M17::OFF')
+009. ('M17::OFF', 'M16::OFF', 'M17::ON')
+010. ('M17::ON', 'M14::OFF', 'M13::OFF')
+011. ('M17::ON', 'M18::OFF', 'AD1-C::START')
+012. ('M18::OFF', 'AD1-C::START', 'M17::OFF')

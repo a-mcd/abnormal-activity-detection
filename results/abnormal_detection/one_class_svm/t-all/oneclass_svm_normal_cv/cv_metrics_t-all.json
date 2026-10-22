@@ -1,0 +1,157 @@
+{
+  "target_activity_code": "t-all",
+  "model_type": "OneClassSVM",
+  "kernel": "linear",
+  "gamma": "scale",
+  "nu": 0.05,
+  "threshold_percentile": null,
+  "threshold_percentiles_by_activity": {
+    "t1": 20,
+    "t2": 27,
+    "t3": 18,
+    "t4": 10,
+    "t5": 1
+  },
+  "prediction_mode": "percentile_threshold_by_activity",
+  "n_splits": 5,
+  "n_total_normal_sessions": 120,
+  "n_total_predicted_normal": 99,
+  "n_total_predicted_anomaly": 21,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 22,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 20,
+        "t2": 27,
+        "t3": 18,
+        "t4": 10,
+        "t5": 1
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 10560.552317505068,
+        "t2": 1029.4474897443095,
+        "t3": 47799.458867262925,
+        "t4": 5921.969487748612,
+        "t5": 21468.927215870044
+      },
+      "n_predicted_normal": 23,
+      "n_predicted_anomaly": 2,
+      "n_native_predicted_normal": 0,
+      "n_native_predicted_anomaly": 24
+    },
+    {
+      "fold": 2,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 22,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 20,
+        "t2": 27,
+        "t3": 18,
+        "t4": 10,
+        "t5": 1
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 11285.814927706208,
+        "t2": 1184.9285014714358,
+        "t3": 46510.35440724962,
+        "t4": 6496.615913787259,
+        "t5": 20405.270600598265
+      },
+      "n_predicted_normal": 20,
+      "n_predicted_anomaly": 5,
+      "n_native_predicted_normal": 0,
+      "n_native_predicted_anomaly": 25
+    },
+    {
+      "fold": 3,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 22,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 20,
+        "t2": 27,
+        "t3": 18,
+        "t4": 10,
+        "t5": 1
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 11282.276161880458,
+        "t2": 111.64147438493868,
+        "t3": 46675.86040941902,
+        "t4": 6284.233190473275,
+        "t5": 21774.8356224587
+      },
+      "n_predicted_normal": 19,
+      "n_predicted_anomaly": 6,
+      "n_native_predicted_normal": 0,
+      "n_native_predicted_anomaly": 25
+    },
+    {
+      "fold": 4,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 95,
+      "n_val_normal": 25,
+      "n_features": 22,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 20,
+        "t2": 27,
+        "t3": 18,
+        "t4": 10,
+        "t5": 1
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 10029.057139495391,
+        "t2": 32.28245284619419,
+        "t3": 51851.021449168315,
+        "t4": 5138.331504909555,
+        "t5": 21443.72885939845
+      },
+      "n_predicted_normal": 18,
+      "n_predicted_anomaly": 7,
+      "n_native_predicted_normal": 0,
+      "n_native_predicted_anomaly": 21
+    },
+    {
+      "fold": 5,
+      "prediction_mode": "percentile_threshold_by_activity",
+      "n_train_normal": 100,
+      "n_val_normal": 20,
+      "n_features": 22,
+      "threshold_percentile": null,
+      "threshold_percentiles_by_activity": {
+        "t1": 20,
+        "t2": 27,
+        "t3": 18,
+        "t4": 10,
+        "t5": 1
+      },
+      "threshold": null,
+      "thresholds_by_activity": {
+        "t1": 11336.824989829296,
+        "t2": 1271.6074963496055,
+        "t3": 47245.39079124474,
+        "t4": 6460.45130706508,
+        "t5": 22304.942997713435
+      },
+      "n_predicted_normal": 19,
+      "n_predicted_anomaly": 1,
+      "n_native_predicted_normal": 0,
+      "n_native_predicted_anomaly": 19
+    }
+  ]
+}

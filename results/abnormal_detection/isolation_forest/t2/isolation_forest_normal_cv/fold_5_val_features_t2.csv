@@ -1,0 +1,5 @@
+filename,participant_id,activity_code,activity_index,dataset,UNEXPECTED_SENSOR_DURING_TAP_WINDOW,AD1_BC_ACTIVE_LAST_8S,LAST_TAP_VALUE_LT_2_5
+p04.t2.csv,p04,t2,1,normal,0.0,0.0,0
+p09.t2.csv,p09,t2,1,normal,0.0,1.0,1
+p14.t2.csv,p14,t2,1,normal,0.0,1.0,0
+p41.t2.csv,p41,t2,1,normal,0.0,0.0,0

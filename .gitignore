@@ -1,0 +1,10 @@
+.DS_Store
+debug_encoded_session.csv
+debug_final_sequences/
+.Rproj.user
+__pycache__/
+*.pyc
+/.venv/
+.vscode/
+# Office lock files
+~$*

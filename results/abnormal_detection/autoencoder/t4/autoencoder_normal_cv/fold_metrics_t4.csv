@@ -1,0 +1,6 @@
+fold,prediction_mode,n_train_normal,n_val_normal,n_features,use_activity_aware_loss,loss_name,huber_delta,loss_name_by_activity,huber_delta_by_activity,threshold_percentile,threshold_percentiles_by_activity,threshold,thresholds_by_activity,n_predicted_normal,n_predicted_anomaly,n_native_predicted_normal,n_native_predicted_anomaly
+1,percentile_threshold,19,5,4,False,mse,,,,99,,2.432208333015442,,5,0,5,0
+2,percentile_threshold,19,5,4,False,mse,,,,99,,2.264685006141663,,3,2,3,2
+3,percentile_threshold,19,5,4,False,mse,,,,99,,1.8524479079246523,,4,1,4,1
+4,percentile_threshold,19,5,4,False,mse,,,,99,,3.3265573692321784,,5,0,5,0
+5,percentile_threshold,20,4,4,False,mse,,,,99,,2.324249625205993,,4,0,4,0

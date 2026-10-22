@@ -1,0 +1,6 @@
+Error Inference Confusion Matrix
+Rows = Actual, Columns = Predicted
+
+                Pred_Normal  Pred_Anomaly
+Actual_Normal             0             0
+Actual_Anomaly            2            18

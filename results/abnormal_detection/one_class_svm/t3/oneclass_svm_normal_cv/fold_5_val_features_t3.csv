@@ -1,0 +1,5 @@
+filename,participant_id,activity_code,activity_index,dataset,analogue_ad1_a_last_value,EXTRA_EVENT_RATIO
+p04.t3.csv,p04,t3,2,normal,2.88004,0.0
+p09.t3.csv,p09,t3,2,normal,2.90481,0.25906735751295334
+p14.t3.csv,p14,t3,2,normal,2.8934,0.0
+p41.t3.csv,p41,t3,2,normal,2.87645,0.0

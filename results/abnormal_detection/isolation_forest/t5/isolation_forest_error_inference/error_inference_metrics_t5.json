@@ -1,0 +1,12 @@
+{
+  "model_type": "IsolationForest",
+  "target_activity_code": "t5",
+  "n_error_sessions": 20,
+  "threshold": -3.122502256758253e-17,
+  "prediction_mode": "percentile_threshold",
+  "n_predicted_normal": 1,
+  "n_predicted_anomaly": 19,
+  "n_native_predicted_normal": 1,
+  "n_native_predicted_anomaly": 19,
+  "predicted_anomaly_rate": 0.95
+}
